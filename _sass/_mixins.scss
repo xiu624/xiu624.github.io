@@ -1,0 +1,20 @@
+// Cross-browser drop shadow support
+@mixin drop-shadow($h-offset, $v-offset, $blur, $color) {
+    /* Webkit */
+    -webkit-filter: drop-shadow($h-offset $v-offset $blur $color);
+    filter: drop-shadow($h-offset $v-offset $blur $color);
+}
+
+@mixin ln-mono($color) {
+    a.ln-mono {
+        color: $color;
+        svg.icon { fill: $color; }
+        &:hover, &:hover svg.icon { @extend a:hover; }
+    }
+}
+
+@mixin bg-semi-transparent($color, $opacity) {
+    &.bg-semi-transparent {
+        background-color: rgba($color, $opacity);
+    }
+}

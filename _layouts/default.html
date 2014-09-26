@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body style="background-image:url({{ site.url }}/images/test.jpg); background-attachment:fixed; background-size:cover; background-position:top center;">
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+<script src="/js/jquery.min.js"></script>
+<script src="/js/scrollspy.js"></script>
+<script>
+function refreshScrollSpyOptions() {
+    $.updateScrollSpyOptions({
+        offsetTop: $("header").height() + 1,
+        offsetBottom: $("header").height() - $(window).height()
+    });
+}
+function adjustPortalSectionHeight() {
+    var winHeight = $(window).height();
+    winHeight = winHeight < 400 ? 400 : winHeight;
+    $("#sec-portal-main").height(winHeight - $("#sec-portal-header").height());
+}
+$(document).ready(function() {
+    $("section").on("scrollSpy:enter", function() {
+        $("header").removeClass().addClass($(this).attr("class") + " bg-semi-transparent");
+    });
+    $("nav.nav-toggle>li>a").click(function() {
+        var navMenu = $("nav.nav-menu");
+        if (navMenu.css("display") == "none") {
+            navMenu.css("display", "block");
+        }
+        else {
+            navMenu.css("display", "none");
+        }
+        refreshScrollSpyOptions();
+    });
+    $.winSizeSpy({throttle: 500}).on('scrollSpy:winSize', function() {
+        refreshScrollSpyOptions();
+        adjustPortalSectionHeight();
+    });
+    $("section").scrollSpy();
+    refreshScrollSpyOptions();
+    adjustPortalSectionHeight();
+});
+</script>
+</body>
+</html>
