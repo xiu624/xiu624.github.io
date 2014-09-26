@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-<body style="background-image:url({{ site.url }}/images/test.jpg); background-attachment:fixed; background-size:cover; background-position:top center;">
+<body>
 {% include header.html %}
 {{ content }}
 {% include footer.html %}
@@ -14,10 +14,10 @@ function refreshScrollSpyOptions() {
         offsetBottom: $("header").height() - $(window).height()
     });
 }
-function adjustPortalSectionHeight() {
+function adjustPortalHeight() {
     var winHeight = $(window).height();
     winHeight = winHeight < 400 ? 400 : winHeight;
-    $("#sec-portal-main").height(winHeight - $("#sec-portal-header").height());
+    $("#portal").height(winHeight);
 }
 $(document).ready(function() {
     $("section").on("scrollSpy:enter", function() {
@@ -35,11 +35,11 @@ $(document).ready(function() {
     });
     $.winSizeSpy({throttle: 500}).on('scrollSpy:winSize', function() {
         refreshScrollSpyOptions();
-        adjustPortalSectionHeight();
+        adjustPortalHeight();
     });
     $("section").scrollSpy();
     refreshScrollSpyOptions();
-    adjustPortalSectionHeight();
+    adjustPortalHeight();
 });
 </script>
 </body>
