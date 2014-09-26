@@ -114,6 +114,16 @@ header {
     }
 }
 
+#portal {
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: top center;
+}
+
+.touch #portal {
+    background-attachment: scroll;
+}
+
 @media screen { /* higher (retina) */
     .content { max-width: 1920px; }
 }
