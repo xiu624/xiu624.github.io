@@ -5,8 +5,9 @@
 {% include header.html %}
 {{ content }}
 {% include footer.html %}
-<script src="/js/jquery.min.js"></script>
-<script src="/js/scrollspy.js"></script>
+<script src="/js/vendor/jquery.min.js"></script>
+<script src="/js/vendor/scrollspy.js"></script>
+<script src="/js/vendor/magnific-popup.min.js"></script>
 <script>
 function refreshScrollSpyOptions() {
     $.updateScrollSpyOptions({
@@ -37,6 +38,15 @@ $(document).ready(function() {
         refreshScrollSpyOptions();
         adjustPortalHeight();
     });
+    $('.ln-weixin').magnificPopup({
+		type: 'image',
+		closeOnContentClick: true,
+		mainClass: 'mfp-img-mobile',
+		image: {
+			verticalFit: true
+		}
+	});
+
     $("section").scrollSpy();
     refreshScrollSpyOptions();
     adjustPortalHeight();

@@ -2,6 +2,8 @@
 ---
 @import "vendor/bourbon/bourbon";
 @import "vendor/neat/neat";
+@import "vendor/font-awesome/font-awesome";
+@import "vendor/magnific-popup/magnific-popup";
 @import "variables";
 @import "mixins";
 
@@ -99,10 +101,6 @@ header {
     nav {
         position: relative;
         float: right;
-        li {
-            display: inline-block;
-            margin-left: $gutter;
-        }
         &.nav-toggle {
             display: none;
             text-align: right;
@@ -110,6 +108,11 @@ header {
         &.nav-menu { 
             display: block;
             text-align: center;
+        }
+        li {
+            display: inline-block;
+            margin-left: $gutter;
+            i.fa { font-size: 1.5em; }
         }
     }
 }
