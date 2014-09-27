@@ -6,7 +6,7 @@
 }
 
 @mixin ln-mono($color) {
-    a.ln-mono {
+    a.ln-mono, a.ln-mono:active, a.ln-mono:visited {
         color: $color;
         svg.icon { fill: $color; }
         &:hover, &:hover svg.icon { @extend a:hover; }
