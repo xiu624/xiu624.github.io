@@ -6,7 +6,7 @@
 {{ content }}
 {% include footer.html %}
 <script src="/js/vendor/jquery.min.js"></script>
-<script src="/js/vendor/scrollspy.js"></script>
+<script src="/js/vendor/scroll-support.js"></script>
 <script src="/js/vendor/magnific-popup.min.js"></script>
 <script>
 function refreshScrollSpyOptions() {
@@ -19,6 +19,7 @@ function adjustPortalHeight() {
     var winHeight = $(window).height();
     winHeight = winHeight < 400 ? 400 : winHeight;
     $("#portal").height(winHeight);
+    $("#portal-content").height(winHeight - $("#portal-margin").height());
 }
 $(document).ready(function() {
     $("section").on("scrollSpy:enter", function() {
@@ -47,9 +48,10 @@ $(document).ready(function() {
 		}
 	});
 
+    adjustPortalHeight();
     $("section").scrollSpy();
     refreshScrollSpyOptions();
-    adjustPortalHeight();
+    $.scrollSmoothInPage(0.4);
 });
 </script>
 </body>
