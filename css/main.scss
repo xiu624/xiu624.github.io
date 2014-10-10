@@ -85,6 +85,13 @@ a, a:active, a:visited {
     padding: ($gutter / 2) $gutter;
 }
 
+.content-main { @include span-columns(8); }
+.content-side { @include span-columns(4); }
+
+section .content {
+    padding-top: $logo-font-size + $gutter * 1.5;
+}
+
 header {
     position: fixed;
     top: 0px;
@@ -147,7 +154,6 @@ header {
 #portal-content .content {
     display: table;
     width: 100%;
-    padding-top: 0;
     padding-bottom: 0;
 }
 
