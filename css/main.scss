@@ -7,8 +7,14 @@
 @import "variables";
 @import "mixins";
 
-h2 {
+h1 {
     font-size: 2.5em;
+    font-weight: normal;
+    line-height: $gutter;
+}
+
+h2 {
+    font-size: 1.5em;
     font-weight: normal;
     line-height: $gutter;
 }
@@ -31,9 +37,9 @@ body {
 }
 
 a, a:active, a:visited {
-    color: $blue;
+    color: lighten($blue, 20%);
     text-decoration: none;
-    svg.icon { fill: $blue; }
+    svg.icon { fill: lighten($blue, 20%); }
     &:hover {
         color: lighten($red, 10%);
         svg.icon { fill: lighten($red, 10%) !important; }
@@ -87,6 +93,7 @@ a, a:active, a:visited {
 
 .content-main { @include span-columns(8); }
 .content-side { @include span-columns(4); }
+.content-col { @include span-columns(6); }
 
 section .content {
     padding-top: $logo-font-size + $gutter * 1.5;
@@ -171,7 +178,6 @@ header {
         display: inline-block;
         padding: 0 $gutter;
         line-height: 2em;
-        box-shadow: 0px 0px 10px rgba($black, 0.25);
     }
 }
 
