@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-<body>
+<body id="page">
 {% include header.html %}
 {{ content }}
 {% include footer.html %}
@@ -22,7 +22,7 @@ function adjustPortalHeight() {
     $("#portal-content").height(winHeight - $("#portal-margin").height());
 }
 $(document).ready(function() {
-    $("section").on("scrollSpy:enter", function() {
+    $("section, footer").on("scrollSpy:enter", function() {
         $("header").removeClass().addClass($(this).attr("class") + " bg-semi-transparent");
     });
     $("nav.nav-toggle>li>a").click(function() {
@@ -49,7 +49,7 @@ $(document).ready(function() {
 	});
 
     adjustPortalHeight();
-    $("section").scrollSpy();
+    $("section, footer").scrollSpy();
     refreshScrollSpyOptions();
     $.scrollSmoothInPage(0.4);
 });

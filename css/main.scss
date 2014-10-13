@@ -89,21 +89,14 @@ a, a:active, a:visited {
     @include outer-container;
     height: 100%;
     padding: ($gutter / 2) $gutter;
-    .content-main {
-        padding-top: $gutter / 2;
-        @include span-columns(8);
-    }
-    .content-side {
-        padding-top: $gutter / 2;
-        @include span-columns(4);
-    }
-    .content-col {
-        padding-top: $gutter / 2;
-        @include span-columns(6);
-    }
+    .content-main { @include span-columns(8); }
+    .content-side { @include span-columns(4); }
+    .content-col { @include span-columns(6); }
+    .content-main, .content-side, .content-col { padding-top: $gutter / 2; }
+    p { margin-bottom: 1em; }
 }
 
-section .content {
+section>*:first-child {
     padding-top: $logo-font-size + $gutter * 1.5;
 }
 
@@ -153,6 +146,11 @@ header {
     }
 }
 
+footer {
+    font-size: 0.8em;
+    line-height: $gutter;
+}
+
 #portal {
     display: table;
     width: 100%;
@@ -166,10 +164,9 @@ header {
     background-attachment: scroll;
 }
 
-#portal-content .content {
+#portal-content>.content:first-child {
     display: table;
     width: 100%;
-    padding-bottom: 0;
 }
 
 .portal-slogan {
@@ -178,9 +175,9 @@ header {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
 
-.portal-more {
-    display: table-row;
+.section-jumper {
     height: 2em;
+    margin-top: $gutter / 2;
     text-align: center;
     a {
         display: inline-block;
@@ -225,8 +222,11 @@ header {
     h1 { font-size: 2em; }
     h2 { font-size: 1.2em; }
     .content {
-        max-width: none; 
-        .content-main, .content-side, .content-col { @include span-columns(12); }
+        max-width: none;
+        .content-main, .content-side, .content-col {
+            @include span-columns(12);
+            @include omega(1n);
+        }
     }
     header {
         a {
