@@ -12,9 +12,3 @@
         &:hover { @extend a:hover; }
     }
 }
-
-@mixin bg-semi-transparent($color, $opacity) {
-    &.bg-semi-transparent {
-        background-color: rgba($color, $opacity);
-    }
-}

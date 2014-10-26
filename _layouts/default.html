@@ -23,7 +23,7 @@ function adjustPortalHeight() {
 }
 $(document).ready(function() {
     $("section, footer").on("scrollSpy:enter", function() {
-        $("header").removeClass().addClass($(this).attr("class") + " bg-semi-transparent");
+        $("header").removeClass().addClass($(this).attr("class"));
     });
     $("nav.nav-toggle>li>a").click(function() {
         var navMenu = $("nav.nav-menu");

@@ -7,6 +7,13 @@
 @import "variables";
 @import "mixins";
 
+body {
+    font-family: $base-font;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    background-color: $black;
+}
+
 h1 {
     font-size: 2.5em;
     font-weight: normal;
@@ -21,19 +28,12 @@ h2 {
 
 em {
     font-style: normal;
-    color: $red;
+    color: lighten($red, 10%);
 }
 
 * {
     margin: 0px;
     padding: 0px;
-}
-
-body {
-    font-family: $base-font;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    background-color: $black;
 }
 
 a, a:active, a:visited {
@@ -61,28 +61,28 @@ a, a:active, a:visited {
 }
 
 .bg-white {
-    background-color: $white;
-    @include bg-semi-transparent($white, 0.9);
+    background-color: darken($white, 10%);
+    &.bg-semi-transparent { background-color: rgba(darken($white, 10%), 0.9); }
 }
 
 .bg-black {
     background-color: $black;
-    @include bg-semi-transparent($black, 0.6);
+    &.bg-semi-transparent { background-color: rgba($black, 0.6); }
 }
 
 .bg-grey {
     background-color: $grey;
-    @include bg-semi-transparent($grey, 0.9);
+    &.bg-semi-transparent { background-color: rgba($grey, 0.9); }
 }
 
 .bg-red {
     background-color: $red;
-    @include bg-semi-transparent($red, 0.9);
+    &.bg-semi-transparent { background-color: rgba($red, 0.9); }
 }
 
 .bg-blue {
     background-color: $blue;
-    @include bg-semi-transparent($blue, 0.9);
+    &.bg-semi-transparent { background-color: rgba($blue, 0.9); }
 }
 
 .content {
@@ -96,7 +96,7 @@ a, a:active, a:visited {
     p { margin-bottom: 1em; }
 }
 
-section>*:first-child {
+.header-margin {
     padding-top: $logo-font-size + $gutter * 1.5;
 }
 
@@ -107,13 +107,17 @@ header {
     z-index: 1000;
     width: 100%;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
-    box-shadow: 0px 0px 10px rgba($black, 0.25);
-    transition: background-color 0.4s;
+    transition: background-color 0.4s, box-shadow 0.4s;
+    &.header-emphasis {
+        box-shadow: 0px 0px 10px rgba($black, 0.25);
+        &.bg-white { @extend .bg-white.bg-semi-transparent; }
+        &.bg-black { @extend .bg-black.bg-semi-transparent; }
+        &.bg-grey { @extend .bg-grey.bg-semi-transparent; }
+        &.bg-red { @extend .bg-red.bg-semi-transparent; }
+        &.bg-blue { @extend .bg-blue.bg-semi-transparent; }
+    }
     &.txt-black {
         text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
-    }
-    &.bg-transparent, &.bg-black {
-        box-shadow: none;
     }
     a {
         display: block;
@@ -152,12 +156,16 @@ footer {
 }
 
 #portal {
-    display: table;
     width: 100%;
     background-attachment: fixed;
     background-size: cover;
     background-position: top center;
-    section { display: table-row; }
+}
+
+* {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
 }
 
 .touch #portal {
@@ -169,15 +177,13 @@ footer {
     width: 100%;
 }
 
-.portal-slogan {
-    display: table-row;
-    height: 100%;
+.slogan {
+    padding: 1em 0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
 }
 
 .section-jumper {
     height: 2em;
-    margin-top: $gutter / 2;
     text-align: center;
     a {
         display: inline-block;
@@ -219,8 +225,9 @@ footer {
 }
 
 @media screen and (max-width: 630px) { /* lower */
-    h1 { font-size: 2em; }
-    h2 { font-size: 1.2em; }
+    body {
+        font-size: $mobile-font-size;
+    }
     .content {
         max-width: none;
         .content-main, .content-side, .content-col {
@@ -229,13 +236,6 @@ footer {
         }
     }
     header {
-        a {
-            line-height: $logo-compact-size;
-        }
-        svg.logo {
-            height: $logo-compact-size;
-            width: $logo-compact-size * 240.7 / 139.6;
-        }
         nav {
             &.nav-toggle { display: block; }
             &.nav-menu {
