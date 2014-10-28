@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'font-prims';
+    src: url('../fonts/font-prims.eot?9350432');
+    src: url('../fonts/font-prims.eot?9350432#iefix') format('embedded-opentype'),
+        url('../fonts/font-prims.woff?9350432') format('woff'),
+        url('../fonts/font-prims.ttf?9350432') format('truetype'),
+        url('../fonts/font-prims.svg?9350432#font-prims') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "font-prims";
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+	width: 1em;
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+	/* Fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+}
+
+.icon-angle-double-up:before { content: '\e800'; } /* '' */
+.icon-angle-down:before { content: '\e801'; } /* '' */
+.icon-wechat:before { content: '\e802'; } /* '' */
+.icon-note:before { content: '\e803'; } /* '' */
+.icon-note-beamed:before { content: '\e804'; } /* '' */
+.icon-phone:before { content: '\e805'; } /* '' */
+.icon-mail-alt:before { content: '\e806'; } /* '' */

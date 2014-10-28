@@ -2,8 +2,8 @@
 ---
 @import "vendor/bourbon/bourbon";
 @import "vendor/neat/neat";
-@import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
+@import "fonts";
 @import "variables";
 @import "mixins";
 
@@ -90,7 +90,7 @@ a, a:active, a:visited {
     height: 100%;
     padding: ($gutter / 2) $gutter;
     .content-main { @include span-columns(8); }
-    .content-side { @include span-columns(4); }
+    .content-side { @include span-columns(4); i.pic { font-size: 20em; font-size: 20vw; } }
     .content-col { @include span-columns(6); }
     .content-main, .content-side, .content-col { padding-top: $gutter / 2; }
     p { margin-bottom: 1em; }
@@ -145,7 +145,6 @@ header {
         li {
             display: inline-block;
             margin-left: $gutter;
-            i.fa { font-size: 1.5em; }
         }
     }
 }
@@ -233,6 +232,7 @@ footer {
         .content-main, .content-side, .content-col {
             @include span-columns(12);
             @include omega(1n);
+			i.pic { font-size: 20em; font-size: 65vw; }
         }
     }
     header {
