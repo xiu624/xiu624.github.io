@@ -7,11 +7,10 @@ $logo-font-size     : 2.5em;
 
 // Color
 $white              : #fff;
-$black              : #222;
 $grey               : #455560;
+$black              : #222;
 $red                : #cd4547;
+$red-light          : #f07375;
 $blue               : #32759d;
+$blue-light         : lighten($blue, 20%);
 $orange             : #e37a49;
-
-// Layout
-$visual-grid        : true;

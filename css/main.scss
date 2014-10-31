@@ -60,7 +60,7 @@ p {
 
 em {
     font-style: normal;
-    color: #F07375;
+    color: $red-light;
 }
 
 * {
@@ -69,12 +69,12 @@ em {
 }
 
 a, a:active, a:visited {
-    color: lighten($blue, 20%);
     text-decoration: none;
-    svg.icon { fill: lighten($blue, 20%); }
+    color: $blue-light;
+    svg.icon { fill: $blue-light; }
     &:hover {
-        color: lighten($red, 10%);
-        svg.icon { fill: lighten($red, 10%) !important; }
+        color: $red-light;
+        svg.icon { fill: $red-light !important; }
     }
 }
 
