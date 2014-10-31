@@ -136,8 +136,10 @@ a, a:active, a:visited {
     @include outer-container;
     height: 100%;
     padding: $gutter $gutter;
-    .content-main { @include span-columns(8); }
-    .content-col { @include span-columns(6); }
+}
+
+.content-main {
+    @include span-columns(8);
 }
 
 .content-side {
@@ -154,8 +156,13 @@ a, a:active, a:visited {
     }
 }
 
+.content-col {
+    @include span-columns(6);
+}
+
 .content-tile {
 	@include span-columns(4);
+    @include omega(3n);
 	margin-bottom: $gutter;
 	img {
 		display: block;
@@ -325,10 +332,16 @@ footer .content {
     }
     .content {
         max-width: none;
-        .content-main, .content-side, .content-col {
-            @include span-columns(12);
-            @include omega(1n);
-            i.pic { font-size: 20em; font-size: 65vw; }
+    }
+    .content-main, .content-side, .content-col, .content-tile {
+        @include span-columns(12);
+        @include omega(1n);
+        i.pic, i.pic.icon-clef {
+            font-size: 20em;
+            font-size: 65vw;
+            &:before {
+                width: 1em;
+            }
         }
     }
     header {
