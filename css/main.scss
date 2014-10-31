@@ -146,12 +146,16 @@ a, a:active, a:visited {
     @include span-columns(4);
     i.pic {
         font-size: 20em;
-        font-size: 20vw;
-        &.icon-clef {
-            font-size: 30vw;
-            &:before {
-                width: inherit;
-            }
+        font-size: 25vw;
+        &:before {
+            width: inherit;
+        }
+    }
+    i.pic-thin {
+        font-size: 25em;
+        font-size: 30vw;
+        &:before {
+            width: inherit;
         }
     }
 }
@@ -253,6 +257,9 @@ header {
         }
         li {
             display: inline-block;
+        }
+        a {
+            display: inline-block;
             margin-left: $gutter;
         }
     }
@@ -316,6 +323,10 @@ footer .content {
 
 @media screen and (max-width: 1100px) { /* 1024x768 */
     .content { max-width: 880px; }
+    .content-tile {
+        @include span-columns(6);
+        @include omega(2n);
+    }
 }
 
 @media screen and (max-width: 890px) { /* 800x600 */
@@ -336,11 +347,11 @@ footer .content {
     .content-main, .content-side, .content-col, .content-tile {
         @include span-columns(12);
         @include omega(1n);
-        i.pic, i.pic.icon-clef {
-            font-size: 20em;
+        i.pic, i.pic-thin {
+            font-size: 40em;
             font-size: 65vw;
             &:before {
-                width: 1em;
+                width: 1.2em;
             }
         }
     }
