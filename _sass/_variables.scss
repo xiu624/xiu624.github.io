@@ -3,7 +3,7 @@ $base-font          : "Source Sans Pro","Microsoft YaHei","Hiragino Sans GB",STH
 $base-font-size     : 16px;
 $mobile-font-size   : 14px;
 $base-line-height  	: $gutter;
-$logo-font-size     : 2.5em;
+$logo-font-size     : 2.4em;
 
 // Color
 $white              : #fff;
@@ -14,3 +14,6 @@ $red-light          : #f07375;
 $blue               : #32759d;
 $blue-light         : lighten($blue, 20%);
 $orange             : #e37a49;
+
+// SVG
+$svg-munich-ratio   : 186.807 / 800;

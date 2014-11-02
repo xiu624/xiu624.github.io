@@ -1,14 +1,19 @@
-// Cross-browser drop shadow support
-@mixin drop-shadow($h-offset, $v-offset, $blur, $color) {
-    /* Webkit */
-    -webkit-filter: drop-shadow($h-offset $v-offset $blur $color);
-    filter: drop-shadow($h-offset $v-offset $blur $color);
+// Cross-browser font smoothing support
+@mixin font-smoothing($value: on) {
+    @if $value == on {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    @else {
+        -webkit-font-smoothing: subpixel-antialiased;
+        -moz-osx-font-smoothing: auto;
+    }
 }
 
+// Mono color link (take text color)
 @mixin ln-mono($color) {
     a.ln-mono, a.ln-mono:active, a.ln-mono:visited {
         color: $color;
-        svg.icon { fill: $color; }
         &:hover { @extend a:hover; }
     }
 }

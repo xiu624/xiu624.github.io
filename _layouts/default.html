@@ -19,7 +19,6 @@ function adjustPortalHeight() {
     var winHeight = $(window).height();
     winHeight = winHeight < 400 ? 400 : winHeight;
     $("#portal").height(winHeight);
-    $("#portal-content").height(winHeight - $("#portal-margin").height());
 }
 $(document).ready(function() {
     $("section, footer").on("scrollSpy:enter", function() {
