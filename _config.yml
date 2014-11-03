@@ -14,16 +14,8 @@ permalink: /:categories/:title/
 markdown: kramdown
 highlighter: pygments
 
-# Site owner
-owner:
-  name:
-  email:
-  twitter:
-  google:
-    ad-client: 
-    ad-slot: 
-  bio: 
-  avatar: bio-photo.jpg # 160x160 px image for author byline
-disqus-shortname:
+# Gem configuration
+gems:
+  - jekyll-sitemap
 
-exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
+exclude: ["README.md", "LICENSE"]
