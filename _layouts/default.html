@@ -3,7 +3,9 @@
 {% include head.html %}
 <body id="page">
 {% include header.html %}
+{% if page.portal.top %}{% include portal-top.html %}{% endif %}
 {{ content }}
+{% if page.portal.bottom %}{% include portal-bottom.html %}{% endif %}
 {% include footer.html %}
 <script src="/js/vendor/jquery.min.js"></script>
 <script src="/js/vendor/scroll-support.min.js"></script>
@@ -15,15 +17,17 @@ function refreshScrollSpyOptions() {
         offsetBottom: $("header").height() - $(window).height()
     });
 }
-function adjustPortalHeight() {
-    var winHeight = $(window).height();
-    winHeight = winHeight < 400 ? 400 : winHeight;
-    $("#portal").height(winHeight);
-}
 $(document).ready(function() {
+    // enable header fade-in/out effect
     $("section, footer").on("scrollSpy:enter", function() {
         $("header").removeClass().addClass($(this).attr("class"));
     });
+    $("section, footer").scrollSpy();
+    refreshScrollSpyOptions();
+    $.winSizeSpy({throttle: 500}).on('scrollSpy:winSize', function() {
+        refreshScrollSpyOptions();
+    });
+    // enable header menu toggle
     $("nav.nav-toggle>li>a").click(function() {
         var navMenu = $("nav.nav-menu");
         if (navMenu.css("display") == "none") {
@@ -34,10 +38,9 @@ $(document).ready(function() {
         }
         refreshScrollSpyOptions();
     });
-    $.winSizeSpy({throttle: 500}).on('scrollSpy:winSize', function() {
-        refreshScrollSpyOptions();
-        adjustPortalHeight();
-    });
+    // enable smooth in page links
+    $.scrollSmoothInPage(0.4);
+    // enable image links
     $('.ln-img').magnificPopup({
 		type: 'image',
 		closeOnContentClick: true,
@@ -46,11 +49,6 @@ $(document).ready(function() {
 			verticalFit: true
 		}
 	});
-
-    adjustPortalHeight();
-    $("section, footer").scrollSpy();
-    refreshScrollSpyOptions();
-    $.scrollSmoothInPage(0.4);
 });
 </script>
 </body>

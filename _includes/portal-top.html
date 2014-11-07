@@ -1,0 +1,17 @@
+{% if page.portal.top-image %}
+<div class="portal-image" style="background-image:url({{ site.url }}{{ page.portal.top-image }});">
+{% endif %}
+<section id="portal-top-margin" class="{{ page.portal.top-margin-class }}" style="{% if page.portal.top-image %}background-color:transparent;{% endif %}">
+    <div class="header-margin"></div>
+</section>
+<section id="portal-top-content" class="{{ page.portal.top-content-class }}" style="{% if page.portal.top-image %}background-color:transparent;{% endif %}">
+    <div class="content">
+        {% if page.portal.top-text %}
+        <h1 class="portal-text">{{ page.portal.top-text }}</h1>
+        {% endif %}
+    </div>
+</section>
+{% if page.portal.top-image %}
+<div class="section-jumper"><a class="{{ page.portal.top-content-class }}" href="#about">更多 <i class="icon-angle-down"></i></a></div>
+</div>
+{% endif %}

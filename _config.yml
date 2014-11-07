@@ -1,4 +1,4 @@
-# Site configuration
+# Site settings
 title: Prims Studio
 description:
 logo: # 120x120 px default image used for Twitter summary card
@@ -6,7 +6,21 @@ teaser: # 400x250 px default teaser image used in image archive grid
 locale:
 url:
 
-# Jekyll configuration
+# Page default settings
+defaults:
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            portal:
+                top: off
+                top-margin-class: "txt-white bg-transparent"
+                top-content-class: "txt-white bg-black bg-semi-transparent"
+                bottom: off
+                bottom-content-class: "txt-white bg-black bg-semi-transparent"
+
+# Jekyll settings
 sass:
     sass_dir: _sass
     style: compressed
@@ -14,7 +28,7 @@ permalink: /:categories/:title/
 markdown: kramdown
 highlighter: pygments
 
-# Gem configuration
+# Gem settings
 gems:
   - jekyll-sitemap
 
