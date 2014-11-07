@@ -1,5 +1,5 @@
 {% if page.portal.bottom-image %}
-<div class="portal-image" style="background-image:url({{ site.url }}{{ page.portal.bottom-image }});">
+<div class="portal-image{% if page.portal.bottom-image-fullsize %} portal-fullsize{% endif %}" style="background-image:url({{ site.url }}{{ page.portal.bottom-image }});">
 {% endif %}
 <section id="portal-bottom-content" class="{{ page.portal.bottom-content-class }}" style="{% if page.portal.bottom-image %}background-color:transparent;{% endif %}">
     <div class="content">
@@ -9,6 +9,6 @@
     </div>
 </section>
 {% if page.portal.bottom-image %}
-<div class="section-jumper"><a class="{{ page.portal.bottom-content-class }}" href="#page">返回顶端 <i class="icon-angle-double-up"></i></a></div>
+<div class="section-jumper"><a class="txt-white bg-black bg-semi-transparent" href="#page">返回顶端 <i class="icon-angle-double-up"></i></a></div>
 </div>
 {% endif %}

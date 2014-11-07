@@ -16,9 +16,11 @@ defaults:
             portal:
                 top: off
                 top-margin-class: "txt-white bg-transparent"
-                top-content-class: "txt-white bg-black bg-semi-transparent"
+                top-content-class: "txt-white bg-black header-emphasis"
+                top-image-fullsize: true
                 bottom: off
-                bottom-content-class: "txt-white bg-black bg-semi-transparent"
+                bottom-content-class: "txt-white bg-grey header-emphasis"
+                bottom-image-fullsize: true
 
 # Jekyll settings
 sass:

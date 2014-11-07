@@ -1,5 +1,5 @@
 {% if page.portal.top-image %}
-<div class="portal-image" style="background-image:url({{ site.url }}{{ page.portal.top-image }});">
+<div class="portal-image{% if page.portal.top-image-fullsize %} portal-fullsize{% endif %}" style="background-image:url({{ site.url }}{{ page.portal.top-image }});">
 {% endif %}
 <section id="portal-top-margin" class="{{ page.portal.top-margin-class }}" style="{% if page.portal.top-image %}background-color:transparent;{% endif %}">
     <div class="header-margin"></div>
@@ -11,7 +11,9 @@
         {% endif %}
     </div>
 </section>
+{% if page.portal.top-image-fullsize %}
+<div class="section-jumper"><a class="txt-white bg-black bg-semi-transparent" href="#about">更多 <i class="icon-angle-down"></i></a></div>
+{% endif %}
 {% if page.portal.top-image %}
-<div class="section-jumper"><a class="{{ page.portal.top-content-class }}" href="#about">更多 <i class="icon-angle-down"></i></a></div>
 </div>
 {% endif %}
