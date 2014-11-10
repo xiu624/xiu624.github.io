@@ -12,7 +12,8 @@
 
 // Mono color link (take text color)
 @mixin ln-mono($color) {
-    a.ln-mono, a.ln-mono:active, a.ln-mono:visited {
+    a.ln-mono, a.ln-mono:active, a.ln-mono:visited,
+    &.ln-mono, &.ln-mono:active, &.ln-mono:visited {
         color: $color;
         &:hover { @extend a:hover; }
     }
