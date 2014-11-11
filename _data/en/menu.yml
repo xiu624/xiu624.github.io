@@ -1,0 +1,19 @@
+# Menu items (en)
+
+-   type: link
+    title: About Us
+    url: /about
+    target: _self
+    class:
+
+-   type: link
+    title: Event & Show
+    url: /event
+    target: _self
+    class:
+
+-   type: icon
+    title: <i class="icon-facebook"></i>
+    url: http://www.facebook.com/prims.studio
+    target: _blank
+    class:
