@@ -1,0 +1,31 @@
+---
+layout: default
+portal:
+    top: on
+    top-image: "/images/portal-bg-01.jpg"
+---
+{% include variables.html %}
+<section id="s1" class="txt-white bg-red header-emphasis">
+<div class="content header-margin col-two-one">
+    <div>
+        {{ page.home.about }}
+        <p><a href="{{ page_url_prefix }}/about">{{ site.data[page.locale].label.learn_more }}</a></p>
+    </div>
+    <div class="content-img"><i class="icon-note"></i></div>
+</div>
+</section>
+<section id="s2" class="txt-white bg-blue header-emphasis">
+<div class="content header-margin col-two-one">
+    <div>
+        {{ page.home.event }}
+        <p><a href="{{ page_url_prefix }}/event">{{ site.data[page.locale].label.learn_more }}</a></p>
+    </div>
+    <div class="content-img"><i class="icon-note-beamed"></i></div>
+</div>
+</section>
+<section id="s3" class="txt-black bg-light header-emphasis">
+<div class="content header-margin">
+    {{ page.home.join_us }}
+</div>
+<div class="section-jumper"><a class="txt-white bg-black bg-semi-transparent" href="#page">{{ site.data[page.locale].label.back_to_top }}</a></div>
+</section>

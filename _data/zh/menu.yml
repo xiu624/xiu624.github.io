@@ -1,0 +1,25 @@
+# Menu items (zh)
+
+-   type: link
+    title: 关于我们
+    url: :prefix/about
+    target: _self
+    class:
+
+-   type: link
+    title: 活动演出
+    url: :prefix/event
+    target: _self
+    class:
+
+-   type: icon
+    title: <i class="icon-wechat"></i>
+    url: /images/weixin-qrcode.jpg
+    target: _self
+    class: ln-img
+
+-   type: icon
+    title: <i class="icon-weibo"></i>
+    url: http://www.weibo.com/prims
+    target: _blank
+    class:

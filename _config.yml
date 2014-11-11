@@ -1,17 +1,15 @@
 # Site settings
 title: Prims Studio
 description:
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
-locale:
 url:
+default_locale: zh
 
 # Page default settings
 defaults:
-    -
-        scope:
+    -   scope:
             path: ""
         values:
+            locale: zh
             portal:
                 top: off
                 top-margin-class: "txt-white bg-transparent"
@@ -20,8 +18,8 @@ defaults:
                 bottom: off
                 bottom-content-class: "txt-white bg-grey header-emphasis"
                 bottom-image-fullsize: true
-    -
-        scope:
+
+    -   scope:
             path: ""
             type: "posts"
         values:
@@ -29,8 +27,8 @@ defaults:
                 top-image-fullsize: false
                 bottom-image-fullsize: false
             post-content-class: "txt-black bg-white header-emphasis"
-    -
-        scope:
+
+    -   scope:
             path: ""
             type: "drafts"
         values:

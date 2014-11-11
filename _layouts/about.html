@@ -1,0 +1,43 @@
+---
+layout: default
+portal:
+    top: on
+    top-margin-class: "txt-white bg-red"
+    top-content-class: "txt-white bg-red header-emphasis"
+    bottom: on
+    bottom-image: "/images/portal-bg-02.jpg"
+---
+{% include variables.html %}
+<section id="s1" class="txt-black bg-white header-emphasis">
+<div class="content header-margin">
+    {{ page.about.s1_title }}
+    <div class="col-two-one">
+        <div>
+            {{ page.about.s1_content }}
+        </div>
+        <div class="content-img txt-red"><i class="icon-clef"></i></div>
+    </div>
+</div>
+</section>
+<section id="s2" class="txt-white bg-orange header-emphasis">
+<div class="content header-margin">
+    {{ page.about.s2_title }}
+    <div class="col-two-one">
+        <div>
+            {{ page.about.s2_content }}
+        </div>
+        <div class="content-img txt-white"><i class="icon-note-beamed"></i></div>
+    </div>
+</div>
+</section>
+<section id="s3" class="txt-black bg-light header-emphasis">
+<div class="content header-margin">
+    {{ page.about.s3_title }}
+    <div class="col-two-one">
+        <div>
+            {{ page.about.s3_content }}
+        </div>
+    </div>
+</div>
+<div class="svg-container-munich">{% include munich.html %}</div>
+</section>
