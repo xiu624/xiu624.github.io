@@ -150,7 +150,7 @@ section {
 }
 
 .content {
-    @include outer-container;
+    @include outer-container(none);
     position: relative;
     padding: $gutter $gutter;
 }
@@ -177,7 +177,7 @@ section {
 }
 
 .col-two-one {
-    @include outer-container;
+    @include outer-container(none);
     &>*:nth-child(2n+1) {
 	    @include span-columns(8);
     }
@@ -188,7 +188,7 @@ section {
 }
 
 .col-two {
-    @include outer-container;
+    @include outer-container(none);
     &>* {
 	    @include span-columns(6);
         @include omega(2n);
@@ -197,7 +197,7 @@ section {
 }
 
 .col-three {
-    @include outer-container;
+    @include outer-container(none);
     &>* {
 	    @include span-columns(4);
         @include omega(3n);
@@ -206,7 +206,7 @@ section {
 }
 
 .col-four {
-    @include outer-container;
+    @include outer-container(none);
     &>* {
 	    @include span-columns(3);
         @include omega(4n);
@@ -451,7 +451,7 @@ footer .content {
         font-size: $mobile-font-size;
     }
     .content {
-        max-width: none;
+        max-width: 100%;
     }
     .content-img i {
         font-size: 40em;
