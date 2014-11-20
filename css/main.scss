@@ -254,6 +254,24 @@ img {
     padding-top: $logo-font-size + $gutter * 1.5;
 }
 
+.video-container {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 56.25%;
+    margin-bottom: $gutter;
+    height: 0;
+}
+
+.video-container iframe,
+.video-container embed, 
+.video-container object {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
 .svg-container {
     display: inline-block;
     position: relative;

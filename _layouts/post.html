@@ -2,11 +2,10 @@
 layout: default
 ---
 {% include variables.html %}
-<section id="s1" class="{{ page.post-content-class }}">
+<section id="s1" class="{{ page.post_content_class }}">
     <div class="content col-two-one">
-        <div>
-{{ content }}
-        </div>
+        <div>{{ content }}</div>
+        {% if page.side_content %}<div>{{ page.side_content }}</div>{% endif %}
     </div>
     <div class="section-jumper"><a class="txt-white bg-black bg-semi-transparent" href="#page">{{ site.data[page.locale].label.back_to_top }}</a></div>
 </section>

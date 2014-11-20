@@ -2,15 +2,16 @@
 layout: post
 portal:
     top: on
-    top-text: 中西音乐的碰撞
-    top-image: /images/event/141102-001-portal.jpg
+    top_text: 中西音乐的碰撞
+    top_image: /images/show/001-portal.jpg
 locale: zh
 categories: show
 title: 中西音乐的碰撞
-teaser: /images/event/141102-001-teaser.jpg
+teaser_image: /images/show/001-teaser.jpg
 time: 2014年11月2日晚8点
 place: EineWeltHaus, Schwanthaler Str. 80, München
 excerpt: 
+side_content: <img src="/images/show/001-poster.jpg"><br><br>
 no_content: true
 ---
 

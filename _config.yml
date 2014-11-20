@@ -12,30 +12,30 @@ defaults:
             locale: zh
             portal:
                 top: off
-                top-margin-class: "txt-white bg-transparent"
-                top-content-class: "txt-white bg-black header-emphasis"
-                top-image-fullsize: true
+                top_margin_class: "txt-white bg-transparent"
+                top_content_class: "txt-white bg-black header-emphasis"
+                top_image_fullsize: true
                 bottom: off
-                bottom-content-class: "txt-white bg-grey header-emphasis"
-                bottom-image-fullsize: true
+                bottom_content_class: "txt-white bg-grey header-emphasis"
+                bottom_image_fullsize: true
 
     -   scope:
             path: ""
             type: "posts"
         values:
             portal:
-                top-image-fullsize: false
-                bottom-image-fullsize: false
-            post-content-class: "txt-black bg-white header-emphasis"
+                top_image_fullsize: false
+                bottom_image_fullsize: false
+            post_content_class: "txt-black bg-white header-emphasis"
 
     -   scope:
             path: ""
             type: "drafts"
         values:
             portal:
-                top-image-fullsize: false
-                bottom-image-fullsize: false
-            post-content-class: "txt-black bg-white header-emphasis"
+                top_image_fullsize: false
+                bottom_image_fullsize: false
+            post_content_class: "txt-black bg-white header-emphasis"
 
 # Jekyll settings
 sass:
