@@ -173,8 +173,9 @@ i.icon-inline {
         display: block;
         width: 100%;
     }
-    .content-tile-title, .content-tile-text {
+    .content-tile-title {
         margin-top: $gutter/4;
+        margin-bottom: 0;
     }
 }
 
