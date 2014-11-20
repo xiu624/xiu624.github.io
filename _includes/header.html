@@ -1,18 +1,18 @@
 <header>
-    <div class="content">
-        <a class="ln-mono ln-logo" href="{{ page_url_prefix }}/"><i class="icon-prims-logo"></i></a>
-        <nav class="nav-toggle">
-            <li><a class="ln-mono" style="cursor: pointer;">{{ site.data[page.locale].label.menu }}</a></li>
-        </nav>
-        <nav class="nav-menu" role="navigation">
+<div class="content">
+    <a class="ln-mono ln-logo" href="{{ page_url_prefix }}/"><i class="icon-prims-logo"></i></a>
+    <nav class="nav-toggle">
+        <li><a class="ln-mono" style="cursor: pointer;">{{ site.data[page.locale].label.menu }}</a></li>
+    </nav>
+    <nav class="nav-menu" role="navigation">
+    {% for item in site.data[page.locale].menu %}
+        {% if item.type == 'link' %}<li><a class="ln-mono {{ item.class }}" href="{{ item.url | replace:':prefix',page_url_prefix }}" target="{{ item.target }}">{{ item.title }}</a></li>{% endif %}
+    {% endfor %}
+        <li>
         {% for item in site.data[page.locale].menu %}
-            {% if item.type == 'link' %}<li><a class="ln-mono {{ item.class }}" href="{{ item.url | replace:':prefix',page_url_prefix }}" target="{{ item.target }}">{{ item.title }}</a></li>{% endif %}
+            {% if item.type == 'icon' %}<a class="ln-mono {{ item.class }}" href="{{ item.url | replace:':prefix',page_url_prefix }}" target="{{ item.target }}">{{ item.title }}</a>{% endif %}
         {% endfor %}
-            <li>
-			{% for item in site.data[page.locale].menu %}
-				{% if item.type == 'icon' %}<a class="ln-mono {{ item.class }}" href="{{ item.url | replace:':prefix',page_url_prefix }}" target="{{ item.target }}">{{ item.title }}</a>{% endif %}
-			{% endfor %}
-            </li>
-        </nav>
-    </div>
+        </li>
+    </nav>
+</div>
 </header>

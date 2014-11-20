@@ -95,6 +95,10 @@ section {
     position: relative;
 }
 
+i.icon-inline {
+    margin-right: $gutter/4;
+}
+
 .txt-white {
     color: $white;
     @include ln-mono($white);
@@ -165,33 +169,30 @@ section {
 
 .content-tile {
     margin-bottom: $gutter;
-	img {
-		display: block;
-		width: 100%;
-	}
-	.content-tile-title, .content-tile-text {
-		margin-top: $gutter/4;
-	}
-	.content-tile-info {
-	    i { margin-right: 0.5em; }
-	}
+    img {
+        display: block;
+        width: 100%;
+    }
+    .content-tile-title, .content-tile-text {
+        margin-top: $gutter/4;
+    }
 }
 
 .col-two-one {
     @include outer-container(none);
     &>*:nth-child(2n+1) {
-	    @include span-columns(8);
+        @include span-columns(8);
     }
     &>*:nth-child(2n) {
-	    @include span-columns(4);
-	    @include omega;
+        @include span-columns(4);
+        @include omega;
     }
 }
 
 .col-two {
     @include outer-container(none);
     &>* {
-	    @include span-columns(6);
+        @include span-columns(6);
         @include omega(2n);
         margin-bottom: $gutter;
     }
@@ -200,7 +201,7 @@ section {
 .col-three {
     @include outer-container(none);
     &>* {
-	    @include span-columns(4);
+        @include span-columns(4);
         @include omega(3n);
         margin-bottom: $gutter;
     }
@@ -209,37 +210,37 @@ section {
 .col-four {
     @include outer-container(none);
     &>* {
-	    @include span-columns(3);
+        @include span-columns(3);
         @include omega(4n);
         margin-bottom: $gutter;
     }
 }
 
 a.img-teaser {
-	position: relative;
-	display: block;
-	overflow: hidden;
-	img {
-		display: block;
-		z-index: 1;
-	}
-	&:before, &:after {
-		position: absolute;
-		content: "";
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		transition: all 0.4s;
-	}
-	&:hover:before {
-		background-color: rgba($black, 0.2);
-		z-index: 2;
-	}
-	&:hover:after {
-		border: $gutter/2 solid rgba($white, 0.4);
-		z-index: 3;
-	}
+    position: relative;
+    display: block;
+    overflow: hidden;
+    img {
+        display: block;
+        z-index: 1;
+    }
+    &:before, &:after {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transition: all 0.4s;
+    }
+    &:hover:before {
+        background-color: rgba($black, 0.2);
+        z-index: 2;
+    }
+    &:hover:after {
+        border: $gutter/2 solid rgba($white, 0.4);
+        z-index: 3;
+    }
 }
 
 img {
