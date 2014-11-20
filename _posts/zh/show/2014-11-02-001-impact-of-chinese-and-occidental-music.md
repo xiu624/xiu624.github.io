@@ -10,27 +10,24 @@ title: 中西音乐的碰撞
 teaser_image: /images/show/001-teaser.jpg
 time: 2014年11月2日晚8点
 place: EineWeltHaus, Schwanthaler Str. 80, München
-excerpt: 
+excerpt: 中国传统音乐、西方古典音乐，传统与古典结合的新尝试。
 side_content: <img src="/images/show/001-poster.jpg"><br><br>
-no_content: true
 ---
 
-# Libertango
+把具有民族特色的乐器、乐风、节奏与西方音乐风格予以融合，就是常说的“中乐西奏”。按音乐风格分，它是New Age（新世纪音乐）里的分支，既新民乐。
 
-Libertango又叫做“自由探戈”，是[*皮亚佐拉*](#piazolla)1973年创作的经典一首名曲，也是他的探戈音乐当中被改编为最多乐器版本的一首曲目。
-《自由探戈》是皮亚佐拉为电影《探戈课》所作的主题曲，它兼有爵士音乐的个性和古典音乐的优美，这首曲子成功的突破了探戈音乐的定位标准，
-它不只是普通市民阶层的音乐形式，而是以一种更高的姿态站到了世界的音乐舞台，成为了世界各地所有阶层的人们共同想有的音乐艺术的结晶。
+作为海外华人，中国的传统文化就那样存在于我们的血液中，无论走多久，走多远，都是无法割舍的情怀。在德国，一个古典音乐的发源地，
+纯正的古典音乐每天都在上演，每一个空间都有着属于自己的悠长历史。在不破坏它原有历史的情况下，现代情怀播种发芽，这样的新旧交融，
+丢不掉传统文化，割不裂记忆片段。
 
-正由于Libetango在音乐圈中如此高的地位，在选Programm的初期，我们想到了它，在众多著名的改编版本中，非常鲜少的存在中国版本。
-如果用中国的民族乐器来演奏，抛开民乐一如既往的抒情和柔情，来点干练的效果，也许会有意想不到的效果。由于Tango舞曲的固定音乐形式，
-由钢琴、打击乐、二胡、琵琶四重奏的演奏组合被最终确定下来。经过大家辛苦的排练，对乐曲在艺术上的处理在一次次的排练中商定下来。
+这是Prims音乐工作室想要和大家分享的主题。中国传统音乐、西方古典音乐，传统与古典结合的新尝试，都将一一上演。在这里，你既能聆听到如茉莉花、赛马等传统民乐，
+又能欣赏到Libertango（自由探戈）、Tico Tico这些极具特色的西方名曲。让我们一起走进音乐的世界，寻找每一个空间的交汇点。
 
-<i class="icon-note icon-inline"></i><b>阿斯托尔·潘塔莱昂·皮亚佐拉</b>
-（Ástor Pantaleón Piazzolla，1921年3月11日－1992年7月5日）是阿根廷手风琴演奏家和作曲家，
-以探戈音乐教父的地位声望与丰富才华，将此种无限魅力的探戈音乐提升至崭新的视野空间，并赋予其更为开阔的挥洒境界。
-作为作曲家的皮亚佐拉，以全方位系统的古典音乐训练为基础，创造性地融合传统古典音乐与爵士乐的作曲风格，
-将探戈音乐从通俗流行的舞蹈伴奏音乐提升为可以单独在舞台上展示的具有高度艺术性，并能表达深刻哲理的纯音乐形式，
-并由此创立了“新探戈音乐”（Tango Nuevo）乐派，成为阿根廷文化的代表人物之一，以及南美音乐史上的重要人物。
-在阿根廷，皮亚佐拉被尊称为“了不起的皮亚佐拉”（el gran Piazzolla）。皮亚佐拉一生共创作了300多部探戈作品，
-以及世界上的第一部“探戈歌剧”(Operita de Tango)《布宜诺斯艾利斯的玛莉亚》(Maria de Buenos Aires)。
-{:#piazolla .notice .bg-light}
+<figure class="col-two">
+    <a class="ln-gallery" href="/images/show/001-live-photo-01.jpg"><img src="/images/show/001-live-photo-01.jpg"></a>
+    <a class="ln-gallery" href="/images/show/001-live-photo-02.jpg"><img src="/images/show/001-live-photo-02.jpg"></a>
+    <a class="ln-gallery" href="/images/show/001-live-photo-03.jpg"><img src="/images/show/001-live-photo-03.jpg"></a>
+    <a class="ln-gallery" href="/images/show/001-live-photo-04.jpg"><img src="/images/show/001-live-photo-04.jpg"></a>
+    <a class="ln-gallery" href="/images/show/001-live-photo-05.jpg"><img src="/images/show/001-live-photo-05.jpg"></a>
+    <a class="ln-gallery" href="/images/show/001-live-photo-06.jpg"><img src="/images/show/001-live-photo-06.jpg"></a>
+</figure>
