@@ -1,0 +1,23 @@
+---
+layout: default
+portal:
+    top: on
+    top-margin-class: "txt-white bg-blue"
+    top-content-class: "txt-white bg-blue header-emphasis"
+    bottom: on
+    bottom-image: "/images/portal-bg-03.jpg"
+---
+<section id="s1" class="txt-black bg-white header-emphasis">
+<div class="content">
+    <div class="col-two">
+        <div class="content-list">
+            {{ page.latest.show_title }}
+            {% include post-list.html posts=site.categories.show locale=page.locale %}
+        </div>
+        <div class="content-list">
+            {{ page.latest.work_title }}
+            {% include post-list.html posts=site.categories.work locale=page.locale %}
+        </div>
+    </div>
+</div>
+</section>

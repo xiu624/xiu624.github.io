@@ -7,8 +7,8 @@
     class:
 
 -   type: link
-    title: Geschehen & Konzerte
-    url: :prefix/event
+    title: Neueste
+    url: :prefix/latest
     target: _self
     class:
 

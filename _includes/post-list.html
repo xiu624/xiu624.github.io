@@ -1,0 +1,20 @@
+{% for post in include.posts %}
+    {% if post.locale == include.locale %}
+        <article class="content-tile">
+            {% if post.no_content %}
+            <a class="ln-img img-teaser" href="{{ post.teaser }}">
+            {% else %}
+            <a class="img-teaser" href="{{ post.url }}">
+            {% endif %}
+                <img src="{{ post.teaser }}">
+            </a>
+            <h4 class="content-tile-title">{{ post.title }}</h4>
+            {% if post.time %}<h6 class="content-tile-info"><i class="icon-calendar-empty"></i>{{ post.time }}</h6>{% endif %}
+            {% if post.place %}<a href="http://www.google.com/maps/search/{{ post.place }}" target="_blank">
+                <h6 class="content-tile-info"><i class="icon-location"></i>{{ post.place }}</h6>
+            </a>{% endif %}
+            {% if post.excerpt %}<span class="content-tile-text">{{ post.excerpt }}</span>{% endif %}
+        </article>
+        {% if include.first == true %}{% break %}{% endif %}
+    {% endif %}
+{% endfor %}

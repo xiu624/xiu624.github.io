@@ -1,10 +1,17 @@
 ---
 layout: post
-title: "中西音乐的碰撞"
 portal:
     top: on
-    top-text: "中西音乐的碰撞"
-    top-image: "/images/event/141102-001-portal.jpg"
+    top-text: 中西音乐的碰撞
+    top-image: /images/event/141102-001-portal.jpg
+locale: en
+categories: en show
+title: 中西音乐的碰撞
+teaser: /images/event/141102-001-teaser.jpg
+time: 2014年11月2日晚8点
+place: EineWeltHaus, Schwanthaler Str. 80, München
+excerpt: 
+no_content: true
 ---
 
 # Libertango

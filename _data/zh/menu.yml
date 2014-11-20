@@ -7,8 +7,8 @@
     class:
 
 -   type: link
-    title: 活动演出
-    url: :prefix/event
+    title: 最新动态
+    url: :prefix/latest
     target: _self
     class:
 
