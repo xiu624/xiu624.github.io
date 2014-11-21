@@ -5,7 +5,7 @@ portal:
     top_text: 中西音乐的碰撞
     top_image: /images/show/001-portal.jpg
 locale: zh
-categories: show
+categories: zh show
 title: 中西音乐的碰撞
 teaser_image: /images/show/001-teaser.jpg
 time: 2014年11月2日晚8点

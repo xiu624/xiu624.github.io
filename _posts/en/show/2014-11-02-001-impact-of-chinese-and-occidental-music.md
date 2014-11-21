@@ -5,12 +5,12 @@ portal:
     top_text: Impact of Chinese and occidental music
     top_image: /images/show/001-portal.jpg
 locale: en
-categories: en show
+categories: show
 title: Impact of Chinese and occidental music
 teaser_image: /images/show/001-teaser.jpg
 time: November 2, 2014, at 8 pm.
 place: EineWeltHaus, Schwanthaler Str. 80, München
-excerpt: Chinese traditional music, occidental classical music, a new attempt of mixing tradition and classic.
+excerpt: Chinese traditional music, occidental classical music, a attempt of mixing tradition and classic.
 side_content: <img src="/images/show/001-poster.jpg"><br><br>
 ---
 

@@ -2,14 +2,15 @@
 title: Prims Studio
 description:
 url:
-default_locale: zh
+locales: ["en", "zh"]
+default_locale: en
 
 # Page default settings
 defaults:
     -   scope:
             path: ""
         values:
-            locale: zh
+            locale: en
             portal:
                 top: off
                 top_margin_class: "txt-white bg-transparent"
