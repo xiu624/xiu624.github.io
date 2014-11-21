@@ -20,7 +20,7 @@ It is a special branch of the New Age music, the new Chinese folk music.
 As overseas Chinese, Chinese traditional culture exists in our blood. In Germany, one of classical music's birthplace,
 pure classical music is staged everyday. By keeping the originality of both world, a mixing of "new" and "old" music styles is going to be tested.
 
-This is the theme that Prims wanted to share with everyone. Chinese traditional music, occidental classical music, a new attempt of mixing tradition and classic.
+This is the theme that Prims wanted to share with everyone. Chinese traditional music, occidental classical music, a attempt of mixing tradition and classic.
 Here, you will be listening to "Mo Li Hua (Jasmine)", "Sai Ma (Horserace)" and other traditional Chinese folk music pieces,
 and you will also be enjoying of "Libertango", "Tico Tico", those popular occidental music pieces.
 Let's dive into the world of music, to find the intersection of each dimension.
