@@ -11,9 +11,9 @@
             <h4 class="content-tile-title">{{ post.title }}</h4>
             {% if post.excerpt %}<span class="content-tile-text">{{ post.excerpt }}</span>{% endif %}
             {% if post.time %}<h6 class="content-tile-info"><i class="icon-calendar-empty icon-inline"></i>{{ post.time }}</h6>{% endif %}
-            {% if post.place %}<a href="http://www.google.com/maps/search/{{ post.place }}" target="_blank">
-                <h6 class="content-tile-info"><i class="icon-location icon-inline"></i>{{ post.place }}</h6>
-            </a>{% endif %}
+            {% if post.place %}<h6 class="content-tile-info">
+                <a href="http://www.google.com/maps/search/{{ post.place }}" target="_blank"><i class="icon-location icon-inline"></i>{{ post.place }}</a>
+            </h6>{% endif %}
         </article>
         {% if include.first == true %}{% break %}{% endif %}
     {% endif %}
