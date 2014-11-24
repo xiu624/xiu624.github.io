@@ -1,21 +1,29 @@
 <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-
     <meta charset="UTF-8">
+
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    {% if page.id %}
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.excerpt }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.teaser_image }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta name="HandheldFriendly" content="true">
     <meta name="MobileOptimized" content="320">
     <meta http-equiv="cleartype" content="on">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-    <link rel="stylesheet" href="{{ site.url }}/css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
 
 	<!-- Modernizr feature detection -->
-    <script src="{{ site.url }}/js/vendor/modernizr.min.js"></script>
+    <script src="/js/vendor/modernizr.min.js"></script>
     <!-- HTML5 and Media Query Support for old IE -->
     <!--[if lt IE 9]>
-        <script src="{{ site.url }}/js/vendor/html5shiv.min.js"></script>
-        <script src="{{ site.url }}/js/vendor/respond.min.js"></script>
+        <script src="/js/vendor/html5shiv.min.js"></script>
+        <script src="/js/vendor/respond.min.js"></script>
     <![endif]-->
     <!-- Google Analytics tracking -->
     <script>

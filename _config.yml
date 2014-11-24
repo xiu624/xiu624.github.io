@@ -1,7 +1,7 @@
 # Site settings
 title: Prims Studio
 description:
-url:
+url: http://www.prims-studio.de
 locales: ["en", "zh"]
 default_locale: en
 
