@@ -10,7 +10,6 @@ defaults:
     -   scope:
             path: ""
         values:
-            locale: en
             portal:
                 top: off
                 top_margin_class: "txt-white bg-transparent"
@@ -19,24 +18,8 @@ defaults:
                 bottom: off
                 bottom_content_class: "txt-white bg-grey header-emphasis"
                 bottom_image_fullsize: true
-
-    -   scope:
-            path: ""
-            type: "posts"
-        values:
-            portal:
-                top_image_fullsize: false
-                bottom_image_fullsize: false
-            post_content_class: "txt-black bg-white header-emphasis"
-
-    -   scope:
-            path: ""
-            type: "drafts"
-        values:
-            portal:
-                top_image_fullsize: false
-                bottom_image_fullsize: false
-            post_content_class: "txt-black bg-white header-emphasis"
+            locale: en
+            locale_menu: on
 
 # Jekyll settings
 sass:

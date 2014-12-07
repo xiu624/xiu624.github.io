@@ -13,12 +13,14 @@
         {% for item in site.data[page.locale].menu %}
             {% if item.type == 'icon' %}<a class="ln-mono {{ item.class }}" href="{{ item.url | replace:':prefix',page_url_prefix }}" target="{{ item.target }}">{{ item.title }}</a>{% endif %}
         {% endfor %}
+        {% if page.locale_menu %}
         {% for locale in site.locales %}
             {% if locale != page.locale %}
             {% capture locale_prefix %}{% if locale != site.default_locale %}/{{ locale }}{% endif %}{% endcapture %}
-            <a class="ln-mono" href="{{ page.url | replace_first:page_url_prefix,locale_prefix }}"><i class="icon-lang-{{ locale }}"></i></a>
+            <a class="ln-mono" href="{{ page.url | replace_first:page_url_prefix,locale_prefix | replace_first:'index.html','' }}"><i class="icon-lang-{{ locale }}"></i></a>
             {% endif %}
         {% endfor %}
+        {% endif %}
         </li>
     </nav>
 </div>
