@@ -1,7 +1,7 @@
 # Menu items (de)
 
 -   type: link
-    title: Über Uns
+    title: Über uns
     url: :prefix/about
     target: _self
     class:

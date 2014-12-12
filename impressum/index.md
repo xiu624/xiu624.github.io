@@ -5,7 +5,7 @@ portal:
     top_margin_class: "txt-white bg-grey"
     top_content_class: "txt-white bg-grey header-emphasis"
     top_text: Impressum
-locale: en
+locale: de
 locale_menu: off
 title: Impressum
 ---

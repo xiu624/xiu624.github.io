@@ -1,10 +1,10 @@
 ---
 layout: latest
-title: Latest
-locale: en
+title: Neueste
+locale: de
 portal:
-    top_text: <em>We live music</em> by inspiring from diversities and possibilities, in a way that makes it unique.
+    top_text: <em>Wir leben Musik</em> inspiriert von der Vielfalt und den Möglichkeiten, in einer Weise, die sie einzigartig macht.
 latest:
-    show_title: <h2>Our show</h2>
-    work_title: <h2>Our work</h2>
+    show_title: <h2>Unsere Show</h2>
+    work_title: <h2>Unsere Arbeit</h2>
 ---

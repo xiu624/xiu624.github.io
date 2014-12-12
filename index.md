@@ -1,19 +1,23 @@
 ---
 layout: home
-title: Home
-locale: en
+title: Startseite
+locale: de
 portal:
-    top_text: <em>We live music</em> the same way we live our lives. Being fresh and persistent.
+    top_text: "<em>Wir leben Musik</em> so wie wir unser Leben leben: frisch und bestaendig."
 home:
-    about: <h1>About us</h1>
-        <p>Founded in Munich, Prims is a professional music studio for young musicians who have a music dream.</p>
-        <p>We love music, and our definition of music is quite extensive. Whether it is classical or folk, oriental or occidental, we want to interpret it in a new way.
-        Our goal is to spread the culture of music, so that more people could get to know and appreciate a new sort of music.</p>
-        <p>At Prims, there is no complex concept or fancy melody, we are just a group of happy musicians with our joyful music.</p>
-    latest: <h1>Follow us</h1>
-    newest_show: <h3>Newest show</h3>
-    newest_work: <h3>Newest work</h3>
-    join_us: <h1>Join us</h1>
-        <p>If you have a music dream, if you have ambition to diverse, we welcome you to join us.</p>
-        <p><a href="https://docs.google.com/forms/d/1-sq92aYt_GanmJIwyH-V5WAZGYbiF4p1JOw-gu-vIww/viewform?entry.1981904886=English&entry.1403216197&entry.1741897517&entry.1312848625&entry.717413880&entry.68319303&entry.1124955230&entry.1615303259&entry.1159944993" target="_blank">Join us now</a></p>
+    about: "<h1>Über uns</h1>
+        <p>In München gegründet ist Prims ein professionelles Musikstudio für junge Musiker, 
+        die einen musikalischen Traum haben.</p>
+        <p>Wir lieben Musik, und unsere Definition von Musik ist recht umfangreich. Ob es Klassik oder Folk, 
+        orientalische oder westliche Musik ist, wollen wir sie auf eine neue Weise interpretieren: 
+        Unser Ziel ist es, die Kultur der Musik zu verbreiten, so dass mehr Menschen eine neue Art von 
+        Musik kennen und schätzen lernen.</p>
+        <p>Bei Prims gibt es keine komplexen Konzepte oder seltsame Melodien, wir sind einfach eine Gruppe 
+        glücklich Musiker mit unseren beglueckenden Musik.</p>"
+    latest: <h1>Folgen Sie uns</h1>
+    newest_show: <h3>Neueste Show</h3>
+    newest_work: <h3>Neueste Arbeit</h3>
+    join_us: <h1>Begleiten Sie uns</h1>
+        <p>Wenn Sie einen musikalischen Traum haben, wenn Sie unterscheiden wollen, begrüßen wir Sie zu uns.</p>
+        <p><a href="https://docs.google.com/forms/d/1-sq92aYt_GanmJIwyH-V5WAZGYbiF4p1JOw-gu-vIww/viewform?entry.1981904886=Deutsch" target="_blank">Jetzt begleiten Sie uns</a></p>
 ---

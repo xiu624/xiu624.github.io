@@ -2,8 +2,8 @@
 title: Prims Studio
 description:
 url: http://www.prims-studio.de
-locales: ["en", "zh"]
-default_locale: en
+locales: ["de", "en", "zh"]
+default_locale: de
 
 # Page default settings
 defaults:
@@ -18,7 +18,7 @@ defaults:
                 bottom: off
                 bottom_content_class: "txt-white bg-grey header-emphasis"
                 bottom_image_fullsize: true
-            locale: en
+            locale: de
             locale_menu: on
 
 # Jekyll settings

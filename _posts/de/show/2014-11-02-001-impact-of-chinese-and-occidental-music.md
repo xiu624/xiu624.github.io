@@ -4,8 +4,8 @@ portal:
     top: on
     top_text: Impact of Chinese and occidental music
     top_image: /images/show/001-portal.jpg
-locale: en
-categories: en show
+locale: de
+categories: show
 title: Impact of Chinese and occidental music
 teaser_image: /images/show/001-teaser.jpg
 time: November 2, 2014, at 8 pm.

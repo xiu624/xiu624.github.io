@@ -15,5 +15,5 @@ home:
     newest_work: <h3>最新作品</h3>
     join_us: <h1>加入我们</h1>
         <p>如果你有梦想且充满激情，如果你有独特的音乐理念，那么欢迎你加入我们。</p>
-        <p><a href="https://docs.google.com/forms/d/1-sq92aYt_GanmJIwyH-V5WAZGYbiF4p1JOw-gu-vIww/viewform?entry.1981904886=%E4%B8%AD%E6%96%87&entry.1403216197&entry.1741897517&entry.1312848625&entry.717413880&entry.68319303&entry.1124955230&entry.1615303259&entry.1159944993" target=":blank">现在就加入我们</a></p>
+        <p><a href="https://docs.google.com/forms/d/1-sq92aYt_GanmJIwyH-V5WAZGYbiF4p1JOw-gu-vIww/viewform?entry.1981904886=%E4%B8%AD%E6%96%87" target=":blank">现在就加入我们</a></p>
 ---

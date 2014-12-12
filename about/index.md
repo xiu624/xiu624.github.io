@@ -1,48 +1,60 @@
 ---
 layout: about
-title: About
-locale: en
+title: Über Uns
+locale: de
 portal:
-    top_text: <em>We live music</em> as we cooperate to create graceful works and share them with you.
+    top_text: "<em>Wir leben Musik</em> so wie wir zusammenarbeiten: um anmutige Werke zu schaffen und diese mit Ihnen zu teilen."
 about:
-    s1_title: <h1><em>Pri</em>ma <em>M</em>u<em>s</em>ik is an attitude.</h1>
-    s1_content: <h3>Make music and enjoy it.</h3>
-        <p>We live music the same way we live our lives. Being fresh and persistent. We make music that people likes, 
-        and we enjoy the enormous happiness it brings to us. Our motivation comes from the need of perfectioning our skills,
-        comes from the desire of realising our dream, but most importantly it comes from the pleasure of creating and sharing music pieces together.</p>
-        <p>At Prims, there is no complex concept or fancy melody, we are just a group of happy musicians with our joyful music.</p>
-        <h3>Good music is a quality.</h3>
-        <p>Good music is never made by coincidence. Sometimes we repeat a rhythm over and over again to make it right, 
-        sometimes we debate simply because of disagreement on a pitch, sometimes we think really hard to find a unique sound.
-        We try our best to create music pieces full of vitality, that can influence people.</p>
-        <p>Rigorous, is the key of our creativity at Prims.</p>
-        <h3>Music is inheritance of life.</h3>
-        <p>Music is everywhere in our lives. The rhythm of car's turn signals, the sound of newspapers in cafeteria,
-        and the knocking bell on square. We are all part of the music, we are all players of this "city symphony".</p>
-        <p>Music is abstract, but can easily resonate with hearts. It is not as straightforward as text, and not as specific as image.
-        It is like a gem-blue stream, gently flowing into our hearts, gives us comfort. Or a bright nightlight, illuminate our way back home.</p>
-        <p>At Prims, we are committed to spread the culture and heritage of music because we do care about them.</p>
-    s2_title: <h1>Our music</h1>
-    s2_content: <p>At the beginning that we founded Prims, we didn't have very clear objectives, nor attach to any fixed music style. 
-        We just want to make something "different". Our musicians all have different experiences, different cultural backgrounds.
-        This happens to be a unique asset for us. We had the opportunity to mix our ideas, inspire from each other and find our own style.
-        We do not want to define our music, nor want to exclude any existing music style, so "mixing" has become the core of our works.</p>
-        <p>We have professional backgrounds in occidental music, and ethnic feelings in oriental culture. With this advantage we start to tryout some of our ideas.
-        For example, use occidental instruments in "Mo Li Hua (Jasmine)", <a href="/work/001-saima"><em>"Sai Ma (Horserace)"</em></a> and other traditional Chinese music pieces, 
-        and add oriental feelings into well known western favorites like "Libertango" and "Tico Tico". Works mixing of Chinese and occidental music styles are naturally born.
-        Of course, this is just a beginning. We are constantly updating and refreshing our ideas, and will bring more works of this type to the public.</p>
-        <p>Actually "mixing" is not new. In China, more and more composers use occidental elements in their works.
-        Such as the famous composer and conductor <a href="http://en.wikipedia.org/wiki/Tan_Dun" target="_blank"><em>Tan Dun</em></a>,
-        professor and composition director of the Chinese Central Conservatory of Music <a href="http://en.wikipedia.org/wiki/Ye_Xiaogang" target="_blank"><em>Ye Xiaogang</em></a>.
-        Their works have the characteristics of both occidental and oriental music, and are coupled with modern interpretation techniques,
-        which bring their unique melody and charm to the public. To some extent, they inspired us a lot, and encouraged us to continue making good music.</p>
-    s3_title: <h1>Munich city</h1>
-    s3_content: <p>For a professional musician, cities like Vienna, Paris, New York, Munich, London, Moscow etc. have a very special meaning.</p>
-        <p>Munich, next to Mozart's hometown Salzburg, has an important place in the classical music world. In such a diverse city, 
-        whether classical, modern, jazz or folk music, they are staged every day. We have the world-famous Munich Philharmonic, 
-        Bavarian Radio Symphony Orchestra, and the Bavarian State Opera. Every year the Summer Opera Festival will be held here in Munich. 
-        In just 35 days, around 20 different operas are staged, and they attract thousands of music lovers from around the world. 
-        In Munich, every street, church or castle, resonate with all kind of melodies. Music is a important part of the everyday life in Munich.</p>
-        <p>Because Munich is so diverse and inclusive, we have chosen to set up Prims Studio here. 
-        We believe we will encounter more peoples like us who love music. Together, we could build a world of our own.</p>
+    s1_title: <h1><em>Pri</em>ma <em>M</em>u<em>s</em>ik ist eine Einstellung.</h1>
+    s1_content: "<h3>Mache Musik und geniesse es.</h3>
+        <p>Wir machen Musik, die Leute mögen, und wir genießen das enorme Glück, das es uns bringt.
+        Unsere Motivation kommt von der Notwendigkeit, unsere Fähigkeiten zu perfektionieren,
+        kommt aus dem Wunsch, unseren Traum Wirklichkeit werden zu lassen, aber am wichtigsten ist:
+        es kommt aus dem Vergnügen Musik gemeinsam zu erschaffen.</p>
+        <p>Bei Prims gibt es keine komplexen Konzepte oder seltsame Melodien, wir sind einfach eine Gruppe
+        glücklich Musiker mit unseren beglueckenden Musik.</p>
+        <h3>Gute Musik ist eine Qualität.</h3>
+        <p>Gute Musik ist nie zufällig. Manchmal wiederholen wir einen Rhythmus immer und immer wieder,
+        um ihn richtig zu machen, manchmal debattieren um eine kleine Tonhöhe, manchmal überlegen wir stundenlang,
+        um unseren eigenen Sound zu finden. Wir versuchen unser Bestes, um Musikstücke voller Vitalität zu erschaffen,
+        die Menschen positive beeinflussen können.</p>
+        <p>Qualität, ist der Schlüssel unserer Kreativität bei Prims.</p>
+        <h3>Musik ist Überlieferung des Lebens.</h3>
+        <p>Musik ist überall in unseren Leben. Der Rhytmus eines Auto-Blinkers, das Rascheln einer Zeitung im Bistro nebenan,
+        und die Fahradklingel auf dem Marienplatz. Wir alles sind Teil dieser Musik, wir alle Spieler unserer \"City Symphonie\".</p>
+        <p>Musik ist abstrakt, doch sie lässt Herzen mitschwingen. Sie ist nicht augenscheinlich, nicht so spezifisch wie Bilder.
+        Sie ist wie ein kristallblauer Strom, der sanft in unsere Herzen fließt und uns Trost gibt. Oder eine funkelndes Nachtlicht,
+        das uns den Weg nach Hause erhellt.</p>
+        <p>Bei Prims, sind wir verpflichtet, die Kultur und das Erbe der Musik zu verbreiten, weil wir uns um sie kümmern.</p>"
+    s2_title: <h1>Unsere Musik</h1>
+    s2_content: "<p>Am Anfang, als Prims noch eine Idee war, hatten wir keine sehr klaren Ziele,
+        noch konnten wir uns auf einen Musikstil festlege. Wir wollen einfach nur etwas \"Anderes\" machen.
+        Unsere Musiker haben alle unterschiedliche Erfahrungen, unterschiedlichen kulturellen Hintergründe.
+        Dies gestaltete sich als eine einzigartige Bereicherung für uns. Wir hatten die Möglichkeit,
+        unsere Ideen zu verschmelzen, uns gegenseitig zu inspirieren, unseren eigenen Stil zu finden.
+        Wir wollen unsere Musik nicht definieren, noch wollen wir jeglichen vorhandenen Musikstil auszuschließen:
+        Verschmelzung ist der Kern unserer Arbeit.</p>
+        <p>Wir haben professionelle Hintergrund in der abendländischen Musik und eine emotionale ethnische
+        Verbundenheit mit der orientalischen Kultur. Mit diesem Vorteil beginnen wir einige unserer Ideen.
+        Wir verwenden zum Beispiel westliche Instrumente in traditionellen chinesischen Musikstücken wie \"Mo Li Hua (Jasmine)\",
+        <a href=\"/work/001-saima\"><em>\"Sai Ma (Horserace)\"</em></a>, und integrieren orientalische Gefühle in westliche Klassiker wie
+        \"Libertango\" und \"Tico Tico\". Werke im Sinne der Fusion von chinesischen und westlichen Musikstile entstehen auf natürliche Weise.
+        Doch das ist nur ein Anfang. Wir aktualisieren und erfrischen unsere Konzepte ständig, um weitere Werke dieser Art an die Öffentlichkeit zu bringen.</p>
+        <p>Fusion ist eigentlich nichts Neues. In China verwenden immer mehr Komponisten abendländische Elemente in ihren Werken.
+        Wie die berühmte Komponistin und Dirigentin <a href=\"http://de.wikipedia.org/wiki/Tan_Dun\" target=\"_blank\"><em>Tan Dun</em></a>,
+        Professor und Direktor des chinesischen Generalkonservatoriums der Musik <a href=\"http://de.wikipedia.org/wiki/Ye_Xiaogang\" target=\"_blank\"><em>Ye Xiaogang</em></a>.
+        Ihre Arbeiten haben Eigenschaften der abendländischen und orientalischen Musik und sind verbunden mit modernen Interpretationstechniken,
+        welche ihre einzigartige Melodie und Charme an eine immer breiter werdende Öffentlichkeit bringen. Teilweise inspiriert sie uns, teilweise ermutigt sie uns,
+        immer wieder gute Musik zu erschaffen.</p>"
+    s3_title: <h1>München</h1>
+    s3_content: <p>Für Berufsmusiker haben Städte wie Wien, Paris, New York, München, London, Moskau, etc. eine ganz besondere Bedeutung.</p>
+        <p>München, neben der Mozartstadt Salzburg, hat einen wichtigen Platz in der Welt der klassischen Musik.
+        In einer so vielfältigen Stadt, wird täglich Musik inszeniert, ob klassisch, modern, Jazz oder Volksmusik.
+        Wir haben das weltbekannte Münchner Radio-Philharmonie-Orchester, des Bayerischen Rundfunks, und die Bayerische Staatsoper.
+        Jedes Jahr wird der Sommer-Opern-Festival hier in München stattfinden. In nur 35 Tagen werden rund 20 verschiedene Opern inszeniert,
+        um Tausende von Musikliebhabern aus der ganzen Welt anzulocken. In München, jede Straße, Kirche oder Burg ist in Resonanz mit allen Arten von Melodien.
+        Musik ist ein wichtiger Bestandteil des täglichen Lebens in München.</p>
+        <p>Weil München so vielfältig und integrativ ist, haben wir beschlossen, das Prims Studio genau hier zu gründen.
+        Wir glauben, dass wir hier mehr Menschen wie uns treffen, die Musik mit Liebe begegnen.
+        Gemeinsam können wir unsere eigene musikalische Welt erbauen.</p>
 ---

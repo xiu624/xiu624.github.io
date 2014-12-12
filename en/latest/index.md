@@ -1,7 +1,7 @@
 ---
 layout: latest
-title: Neueste
-locale: de
+title: Latest
+locale: en
 portal:
     top_text: <em>We live music</em> by inspiring from diversities and possibilities, in a way that makes it unique.
 latest:

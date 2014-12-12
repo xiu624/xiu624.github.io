@@ -1,15 +1,15 @@
 ---
 layout: about
-title: Über Uns
-locale: de
+title: About
+locale: en
 portal:
     top_text: <em>We live music</em> as we cooperate to create graceful works and share them with you.
 about:
     s1_title: <h1><em>Pri</em>ma <em>M</em>u<em>s</em>ik is an attitude.</h1>
     s1_content: <h3>Make music and enjoy it.</h3>
-        <p>We live music the same way we live our lives. Being fresh and persistent. We make music that people likes, 
-        and we enjoy the enormous happiness it brings to us. Our motivation comes from the need of perfectioning our skills,
-        comes from the desire of realising our dream, but most importantly it comes from the pleasure of creating and sharing music pieces together.</p>
+        <p>We make music that people likes, and we enjoy the enormous happiness it brings to us.
+        Our motivation comes from the need of perfectioning our skills, comes from the desire of realising our dream,
+        but most importantly it comes from the pleasure of creating and sharing music pieces together.</p>
         <p>At Prims, there is no complex concept or fancy melody, we are just a group of happy musicians with our joyful music.</p>
         <h3>Good music is a quality.</h3>
         <p>Good music is never made by coincidence. Sometimes we repeat a rhythm over and over again to make it right, 
@@ -26,12 +26,12 @@ about:
     s2_content: <p>At the beginning that we founded Prims, we didn't have very clear objectives, nor attach to any fixed music style. 
         We just want to make something "different". Our musicians all have different experiences, different cultural backgrounds.
         This happens to be a unique asset for us. We had the opportunity to mix our ideas, inspire from each other and find our own style.
-        We do not want to define our music, nor want to exclude any existing music style, so "mixing" has become the core of our works.</p>
+        We do not want to define our music, nor want to exclude any existing music style, so "fusion" has become the core of our works.</p>
         <p>We have professional backgrounds in occidental music, and ethnic feelings in oriental culture. With this advantage we start to tryout some of our ideas.
-        For example, use occidental instruments in "Mo Li Hua (Jasmine)", <a href="/work/001-saima"><em>"Sai Ma (Horserace)"</em></a> and other traditional Chinese music pieces, 
+        For example, use occidental instruments in "Mo Li Hua (Jasmine)", <a href="/en/work/001-saima"><em>"Sai Ma (Horserace)"</em></a> and other traditional Chinese music pieces, 
         and add oriental feelings into well known western favorites like "Libertango" and "Tico Tico". Works mixing of Chinese and occidental music styles are naturally born.
         Of course, this is just a beginning. We are constantly updating and refreshing our ideas, and will bring more works of this type to the public.</p>
-        <p>Actually "mixing" is not new. In China, more and more composers use occidental elements in their works.
+        <p>Actually "fusion" is not new. In China, more and more composers use occidental elements in their works.
         Such as the famous composer and conductor <a href="http://en.wikipedia.org/wiki/Tan_Dun" target="_blank"><em>Tan Dun</em></a>,
         professor and composition director of the Chinese Central Conservatory of Music <a href="http://en.wikipedia.org/wiki/Ye_Xiaogang" target="_blank"><em>Ye Xiaogang</em></a>.
         Their works have the characteristics of both occidental and oriental music, and are coupled with modern interpretation techniques,

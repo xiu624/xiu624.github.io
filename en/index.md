@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Startseite
-locale: de
+title: Home
+locale: en
 portal:
     top_text: <em>We live music</em> the same way we live our lives. Being fresh and persistent.
 home:
@@ -15,5 +15,5 @@ home:
     newest_work: <h3>Newest work</h3>
     join_us: <h1>Join us</h1>
         <p>If you have a music dream, if you have ambition to diverse, we welcome you to join us.</p>
-        <p><a href="https://docs.google.com/forms/d/1-sq92aYt_GanmJIwyH-V5WAZGYbiF4p1JOw-gu-vIww/viewform?entry.1981904886=English&entry.1403216197&entry.1741897517&entry.1312848625&entry.717413880&entry.68319303&entry.1124955230&entry.1615303259&entry.1159944993" target="_blank">Join us now</a></p>
+        <p><a href="https://docs.google.com/forms/d/1-sq92aYt_GanmJIwyH-V5WAZGYbiF4p1JOw-gu-vIww/viewform?entry.1981904886=English" target="_blank">Join us now</a></p>
 ---
