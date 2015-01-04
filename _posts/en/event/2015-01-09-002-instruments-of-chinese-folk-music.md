@@ -12,7 +12,7 @@ time: January 9, 2015, at 7:30 pm.
 place: P+P Pöllath and Partners, Hofstatt 1, 80331 München
 excerpt: Tell the story behind the instruments and do some live performance.
 side_content: <p><img src="/images/event/002-poster.jpg"></p>
-    <h5>Partner</h5><p><a href="http://www.konfuzius-muenchen.de/"><img src="/images/partner/konfuzius-institut-muenchen.png"></a></p>
+    <h5>Partner</h5><p><a href="http://www.konfuzius-muenchen.de/" target="_blank"><img src="/images/partner/konfuzius-institut-muenchen.png"></a></p>
 ---
 
 Beginning 2015, Prims studio is invited in "Konfuzius-Institut München" for its 96e "Jour Fixe" to give a presentation about the instruments of Chinese folk music.
