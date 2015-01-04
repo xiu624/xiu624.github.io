@@ -3,15 +3,15 @@ layout: post
 portal:
     top: on
     top_text: Impact of Chinese and occidental music
-    top_image: /images/show/001-portal.jpg
+    top_image: /images/event/001-portal.jpg
 locale: en
-categories: en show
+categories: en event
 title: Impact of Chinese and occidental music
-teaser_image: /images/show/001-teaser.jpg
+teaser_image: /images/event/001-teaser.jpg
 time: November 2, 2014, at 8 pm.
 place: EineWeltHaus, Schwanthaler Str. 80, München
 excerpt: Chinese traditional music, occidental classical music, a attempt of mixing tradition and classic.
-side_content: <img src="/images/show/001-poster.jpg"><br><br>
+side_content: <img src="/images/event/001-poster.jpg"><br><br>
 ---
 
 Mixing Chinese folk instruments, styles and rhythms with occidental music, is called "Chinese music played in western fashion".
@@ -26,10 +26,10 @@ and you will also be enjoying of "Libertango", "Tico Tico", those popular occide
 Let's dive into the world of music, to find the intersection of each dimension.
 
 <figure class="col-two">
-    <a class="ln-gallery" href="/images/show/001-live-photo-01.jpg"><img src="/images/show/001-live-photo-01.jpg"></a>
-    <a class="ln-gallery" href="/images/show/001-live-photo-02.jpg"><img src="/images/show/001-live-photo-02.jpg"></a>
-    <a class="ln-gallery" href="/images/show/001-live-photo-03.jpg"><img src="/images/show/001-live-photo-03.jpg"></a>
-    <a class="ln-gallery" href="/images/show/001-live-photo-04.jpg"><img src="/images/show/001-live-photo-04.jpg"></a>
-    <a class="ln-gallery" href="/images/show/001-live-photo-05.jpg"><img src="/images/show/001-live-photo-05.jpg"></a>
-    <a class="ln-gallery" href="/images/show/001-live-photo-06.jpg"><img src="/images/show/001-live-photo-06.jpg"></a>
+    <a class="ln-gallery" href="/images/event/001-live-photo-01.jpg"><img src="/images/event/001-live-photo-01.jpg"></a>
+    <a class="ln-gallery" href="/images/event/001-live-photo-02.jpg"><img src="/images/event/001-live-photo-02.jpg"></a>
+    <a class="ln-gallery" href="/images/event/001-live-photo-03.jpg"><img src="/images/event/001-live-photo-03.jpg"></a>
+    <a class="ln-gallery" href="/images/event/001-live-photo-04.jpg"><img src="/images/event/001-live-photo-04.jpg"></a>
+    <a class="ln-gallery" href="/images/event/001-live-photo-05.jpg"><img src="/images/event/001-live-photo-05.jpg"></a>
+    <a class="ln-gallery" href="/images/event/001-live-photo-06.jpg"><img src="/images/event/001-live-photo-06.jpg"></a>
 </figure>

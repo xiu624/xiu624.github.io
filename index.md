@@ -15,7 +15,7 @@ home:
         <p>Bei Prims gibt es keine komplexen Konzepte oder seltsame Melodien, wir sind einfach eine Gruppe 
         glücklich Musiker mit unseren beglueckenden Musik.</p>"
     latest: <h1>Folgen Sie uns</h1>
-    newest_show: <h3>Neueste Show</h3>
+    newest_event: <h3>Neueste Event</h3>
     newest_work: <h3>Neueste Arbeit</h3>
     join_us: <h1>Wir suchen Sie</h1>
         <p>Wenn Sie einen musikalischen Traum haben, wenn Sie unterscheiden wollen, begrüßen wir Sie zu uns.</p>

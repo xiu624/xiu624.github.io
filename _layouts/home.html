@@ -19,8 +19,8 @@ portal:
     {{ page.home.latest }}
     <div class="col-two">
         <div class="content-list">
-            {{ page.home.newest_show}}
-            {% include post-list.html posts=site.categories.show locale=page.locale first=true %}
+            {{ page.home.newest_event}}
+            {% include post-list.html posts=site.categories.event locale=page.locale first=true %}
             <a href="{{ page_url_prefix }}/latest">{{ site.data[page.locale].label.learn_more }}</a>
         </div>
         <div class="content-list">

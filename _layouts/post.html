@@ -7,7 +7,12 @@ content_class: "txt-black bg-white header-emphasis"
 ---
 <section id="s1" class="{{ page.content_class }}">
     <div class="content col-two-one">
-        <div>{{ content }}</div>
+        <div>
+            {% if page.time %}<h6><i class="icon-calendar-empty icon-inline"></i>{{ page.time }}</h6>{% endif %}
+            {% if page.place %}<h6><a href="http://www.google.com/maps/search/{{ page.place }}" target="_blank"><i class="icon-location icon-inline"></i>{{ page.place }}</a></h6>{% endif %}
+            {% if page.time or page.place %}<br>{% endif %}
+            {{ content }}
+        </div>
         {% if page.side_content %}<div>{{ page.side_content }}</div>{% endif %}
     </div>
     <div class="section-jumper"><a class="txt-white bg-black bg-semi-transparent" href="#page">{{ site.data[page.locale].label.back_to_top }}</a></div>

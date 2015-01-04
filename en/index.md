@@ -11,7 +11,7 @@ home:
         Our goal is to spread the culture of music, so that more people could get to know and appreciate a new sort of music.</p>
         <p>At Prims, there is no complex concept or fancy melody, we are just a group of happy musicians with our joyful music.</p>
     latest: <h1>Follow us</h1>
-    newest_show: <h3>Newest show</h3>
+    newest_event: <h3>Newest event</h3>
     newest_work: <h3>Newest work</h3>
     join_us: <h1>Join us</h1>
         <p>If you have a music dream, if you have ambition to diverse, we welcome you to join us.</p>

@@ -415,6 +415,7 @@ footer .content {
     margin: 0;
     padding: 1em 0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.33);
+    word-wrap: break-word;
 }
 
 .section-jumper {
@@ -497,6 +498,9 @@ footer .content {
                 li { display: block; }
             }
         }
+    }
+    .portal-image.portal-fullsize #portal-top-content .content {
+        height: 80%;
     }
 }
 
