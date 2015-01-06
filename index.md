@@ -3,7 +3,7 @@ layout: home
 title: Startseite
 locale: de
 portal:
-    top_text: "<em>Wir leben Musik</em> so wie wir unser Leben leben: frisch und bestaendig."
+    top_text: "<em>Wir leben Musik</em> so wie wir unser Leben leben: frisch und beständig."
 home:
     about: "<h1>Über uns</h1>
         <p>In München gegründet ist Prims ein professionelles Musikstudio für junge Musiker, 
