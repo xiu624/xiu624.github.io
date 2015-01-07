@@ -12,7 +12,7 @@ about:
         kommt aus dem Wunsch, unseren Traum Wirklichkeit werden zu lassen, aber am wichtigsten ist:
         es kommt aus dem Vergnügen Musik gemeinsam zu erschaffen.</p>
         <p>Bei Prims gibt es keine komplexen Konzepte oder seltsame Melodien, wir sind einfach eine Gruppe
-        glücklich Musiker mit unseren beglueckenden Musik.</p>
+        glücklich Musiker mit unseren beglückenden Musik.</p>
         <h3>Gute Musik ist eine Qualität.</h3>
         <p>Gute Musik ist nie zufällig. Manchmal wiederholen wir einen Rhythmus immer und immer wieder,
         um ihn richtig zu machen, manchmal debattieren um eine kleine Tonhöhe, manchmal überlegen wir stundenlang,
