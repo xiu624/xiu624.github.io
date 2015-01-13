@@ -25,7 +25,7 @@ about:
         <p>Musik ist abstrakt, doch sie lässt Herzen mitschwingen. Sie ist nicht augenscheinlich, nicht so spezifisch wie Bilder.
         Sie ist wie ein kristallblauer Strom, der sanft in unsere Herzen fließt und uns Trost gibt. Oder eine funkelndes Nachtlicht,
         das uns den Weg nach Hause erhellt.</p>
-        <p>Bei Prims, wir fühlen uns verpflichtet, Kultur und Erbe der Musik zu verbreiten.</p>"
+        <p>Wir fühlen uns verpflichtet, Kultur und Erbe der Musik zu verbreiten.</p>"
     s2_title: <h1>Unsere Musik</h1>
     s2_content: "<p>Am Anfang, als Prims noch eine Idee war, hatten wir keine sehr klaren Ziele,
         noch konnten wir uns auf einen Musikstil festlege. Wir wollen einfach nur etwas \"Anderes\" machen.
