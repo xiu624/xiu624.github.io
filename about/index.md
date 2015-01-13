@@ -3,29 +3,29 @@ layout: about
 title: Über Uns
 locale: de
 portal:
-    top_text: "<em>Wir leben Musik</em> so wie wir zusammenarbeiten: um anmutige Werke zu schaffen und diese mit Ihnen zu teilen."
+    top_text: "<em>Wir leben Musik</em> so, wie wir zusammenarbeiten: um anmutige Werke zu schaffen und diese mit Ihnen zu teilen."
 about:
     s1_title: <h1><em>Pri</em>ma <em>M</em>u<em>s</em>ik ist eine Einstellung.</h1>
     s1_content: "<h3>Mache Musik und geniesse es.</h3>
-        <p>Wir machen Musik, die Leute mögen, und wir genießen das enorme Glück, das es uns bringt.
+        <p>Wir machen Musik, die Leute mögen. Wir genießen das enorme Glück, das es uns bringt.
         Unsere Motivation kommt von der Notwendigkeit, unsere Fähigkeiten zu perfektionieren,
         kommt aus dem Wunsch, unseren Traum Wirklichkeit werden zu lassen, aber am wichtigsten ist:
         es kommt aus dem Vergnügen Musik gemeinsam zu erschaffen.</p>
         <p>Bei Prims gibt es keine komplexen Konzepte oder seltsame Melodien, wir sind einfach eine Gruppe
         glücklich Musiker mit unseren beglückenden Musik.</p>
         <h3>Gute Musik ist eine Qualität.</h3>
-        <p>Gute Musik ist nie zufällig. Manchmal wiederholen wir einen Rhythmus immer und immer wieder,
+        <p>Gute Musik ist nie zufällig. Manchmal wiederholen wir einen Rhythmus immer wieder und wieder,
         um ihn richtig zu machen, manchmal debattieren um eine kleine Tonhöhe, manchmal überlegen wir stundenlang,
         um unseren eigenen Sound zu finden. Wir versuchen unser Bestes, um Musikstücke voller Vitalität zu erschaffen,
         die Menschen positive beeinflussen können.</p>
         <p>Qualität, ist der Schlüssel unserer Kreativität bei Prims.</p>
         <h3>Musik ist Überlieferung des Lebens.</h3>
         <p>Musik ist überall in unseren Leben. Der Rhytmus eines Auto-Blinkers, das Rascheln einer Zeitung im Bistro nebenan,
-        und die Fahradklingel auf dem Marienplatz. Wir alles sind Teil dieser Musik, wir alle Spieler unserer \"City Symphonie\".</p>
+        oder auch eine Fahrradklingel auf dem Marienplatz. Wir alle sind Teil dieser Musik, Spieler unserer \"City Symphonie\".</p>
         <p>Musik ist abstrakt, doch sie lässt Herzen mitschwingen. Sie ist nicht augenscheinlich, nicht so spezifisch wie Bilder.
         Sie ist wie ein kristallblauer Strom, der sanft in unsere Herzen fließt und uns Trost gibt. Oder eine funkelndes Nachtlicht,
         das uns den Weg nach Hause erhellt.</p>
-        <p>Bei Prims, sind wir verpflichtet, die Kultur und das Erbe der Musik zu verbreiten, weil wir uns um sie kümmern.</p>"
+        <p>Bei Prims, wir fühlen uns verpflichtet, Kultur und Erbe der Musik zu verbreiten.</p>"
     s2_title: <h1>Unsere Musik</h1>
     s2_content: "<p>Am Anfang, als Prims noch eine Idee war, hatten wir keine sehr klaren Ziele,
         noch konnten wir uns auf einen Musikstil festlege. Wir wollen einfach nur etwas \"Anderes\" machen.
