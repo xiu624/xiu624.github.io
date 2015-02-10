@@ -8,7 +8,7 @@ locale: de
 categories: event
 title: Instrumente der chinesischen Volksmusik
 teaser_image: /images/event/002-teaser.jpg
-time: 9. Januar 2014, 19:30
+time: 9. Januar 2014, 19:30 Uhr
 place: P+P Pöllath and Partners, Hofstatt 1, 80331 München
 excerpt: Wir erzählen die Geschichte hinter den Instrumenten und geben eine Live Aufführung.
 side_content: <p><img src="/images/event/002-poster.jpg"></p>

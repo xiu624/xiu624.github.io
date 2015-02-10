@@ -75,6 +75,17 @@ p.notice {
     border-radius: 0.83em;
 }
 
+ul, ol {
+    margin-bottom: $gutter;
+    li {
+        margin-left: $gutter;
+    }
+}
+
+table {
+    margin-bottom: $gutter;
+}
+
 em {
     font-style: normal;
     color: $red-light;
