@@ -36,5 +36,5 @@ You will also be hearing the traditional pieces from the Chinese music group Jiy
 - Dance of the Yao
 - Spring of the Tianshan mountain
 
-Tickets of €18, available at the ticket outlets of München-Ticket and at [www.muenchenticket.de](http://www.muenchenticket.de/guide/tickets/wg4b/Fruehlingsmelodien.html).
+Tickets of €18, available at the ticket outlets of München-Ticket and at <a href="http://www.muenchenticket.de/guide/tickets/wg4b/Fruehlingsmelodien.html" target="_blank">www.muenchenticket.de</a>.
 {:.notice .bg-light}

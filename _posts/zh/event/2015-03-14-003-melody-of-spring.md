@@ -40,5 +40,5 @@ side_content: "<p><img src=\"/images/event/003-poster.jpg\"></p>
 </tr>
 </table>
 
-门票18欧，在München-Ticket售票点和[www.muenchenticket.de](http://www.muenchenticket.de/guide/tickets/wg4b/Fruehlingsmelodien.html)在线均有出售。
+门票18欧，在München-Ticket售票点和<a href="http://www.muenchenticket.de/guide/tickets/wg4b/Fruehlingsmelodien.html" target="_blank">www.muenchenticket.de</a>在线均有出售。
 {:.notice .bg-light}
