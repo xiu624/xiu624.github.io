@@ -7,8 +7,14 @@
     class:
 
 -   type: link
-    title: Neueste
-    url: :prefix/latest
+    title: Event
+    url: :prefix/event
+    target: _self
+    class:
+
+-   type: link
+    title: Werk
+    url: :prefix/work
     target: _self
     class:
 

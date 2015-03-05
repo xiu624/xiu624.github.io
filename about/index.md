@@ -3,7 +3,7 @@ layout: about
 title: Über Uns
 locale: de
 portal:
-    top_text: "<em>Wir leben Musik</em> so, wie wir zusammenarbeiten: um anmutige Werke zu schaffen und diese mit Ihnen zu teilen."
+    top_text: <em>Wir leben Musik</em> so, dass unsere Begeisterung viele Träume wahr werden lässt.
 about:
     s1_title: <h1><em>Pri</em>ma <em>M</em>u<em>s</em>ik ist eine Einstellung.</h1>
     s1_content: "<h3>Mache Musik und geniesse es.</h3>

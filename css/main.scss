@@ -159,6 +159,11 @@ i.icon-inline {
     &.bg-semi-transparent { background-color: rgba($blue, 0.9); }
 }
 
+.bg-green {
+    background-color: $green;
+    &.bg-semi-transparent { background-color: rgba($green, 0.9); }
+}
+
 .bg-orange {
     background-color: $orange;
     &.bg-semi-transparent { background-color: rgba($orange, 0.9); }
@@ -462,10 +467,6 @@ footer .content {
 
 @media screen and (max-width: 1400px) { /* 1280x800, 1366x768 */
     .content { max-width: 1072px; }
-}
-
-@media screen and (max-width: 1100px) { /* 1024x768 */
-    .content { max-width: 880px; }
     .col-three, .col-four {
         &>*:nth-child(n) {
             @include span-columns(6);
@@ -473,6 +474,10 @@ footer .content {
             @include omega(2n);
         }
     }
+}
+
+@media screen and (max-width: 1100px) { /* 1024x768 */
+    .content { max-width: 880px; }
 }
 
 @media screen and (max-width: 890px) { /* 800x600 */

@@ -7,8 +7,14 @@
     class:
 
 -   type: link
-    title: 最新动态
-    url: :prefix/latest
+    title: 活动演出
+    url: :prefix/event
+    target: _self
+    class:
+
+-   type: link
+    title: 音乐作品
+    url: :prefix/work
     target: _self
     class:
 

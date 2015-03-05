@@ -12,7 +12,7 @@ time: 2015年3月14日，晚七点
 place: Black Box im Gasteig, Rosenheimer Straße 5, 81667 München
 excerpt: 传统与新民族音乐会。
 side_content: "<p><img src=\"/images/event/003-poster.jpg\"></p>
-    <h5>Partner</h5><p><a href=\"http://www.jiyuetian.com\" target=\"_blank\"><img style=\"border&#58; 1px solid #000\" src=\"/images/partner/jiyuetian.jpg\"></a></p>"
+    <h5>合作伙伴</h5><p><a href=\"http://www.jiyuetian.com\" target=\"_blank\"><img style=\"border&#58; 1px solid #000\" src=\"/images/partner/jiyuetian.jpg\"></a></p>"
 ---
 
 春天悄然地来临，鼓噪着人们心中对春的期盼。在这个美妙的夜晚，Prims音乐工作室将携手伎乐天弹拨乐团，为您献上的一场独特的民族音乐会。

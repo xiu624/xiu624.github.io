@@ -16,17 +16,17 @@ portal:
 </section>
 <section id="s2" class="txt-white bg-blue header-emphasis">
 <div class="content header-margin">
-    {{ page.home.latest }}
+    {{ page.home.follow_us }}
     <div class="col-two">
         <div class="content-list">
-            {{ page.home.newest_event}}
+            {{ page.home.latest_event}}
             {% include post-list.html posts=site.categories.event locale=page.locale first=true %}
-            <a href="{{ page_url_prefix }}/latest">{{ site.data[page.locale].label.learn_more }}</a>
+            <a href="{{ page_url_prefix }}/event">{{ site.data[page.locale].label.learn_more }}</a>
         </div>
         <div class="content-list">
-            {{ page.home.newest_work}}
+            {{ page.home.latest_work}}
             {% include post-list.html posts=site.categories.work locale=page.locale first=true %}
-            <a href="{{ page_url_prefix }}/latest">{{ site.data[page.locale].label.learn_more }}</a>
+            <a href="{{ page_url_prefix }}/work">{{ site.data[page.locale].label.learn_more }}</a>
         </div>
     </div>
 </div>
