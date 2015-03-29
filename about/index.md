@@ -38,7 +38,7 @@ about:
         Verbundenheit mit der orientalischen Kultur. Mit diesem Vorteil beginnen wir einige unserer Ideen.
         Wir verwenden zum Beispiel westliche Instrumente in traditionellen chinesischen Musikstücken wie \"Mo Li Hua (Jasminblüte)\",
         <a href=\"/work/001-saima\"><em>\"Sai Ma (Pferderennen)\"</em></a>, und integrieren orientalische Gefühle in westliche Klassiker wie
-        \"Libertango\" und \"Tico Tico\". Werke im Sinne der Fusion von chinesischen und westlichen Musikstile entstehen auf natürliche Weise.
+        <a href=\"/work/002-libertango\"><em>\"Libertango\"</em></a> und \"Tico Tico\". Werke im Sinne der Fusion von chinesischen und westlichen Musikstile entstehen auf natürliche Weise.
         Doch das ist nur ein Anfang. Wir aktualisieren und erfrischen unsere Konzepte ständig, um weitere Werke dieser Art an die Öffentlichkeit zu bringen.</p>
         <p>Fusion ist eigentlich nichts Neues. In China verwenden immer mehr Komponisten abendländische Elemente in ihren Werken.
         Wie die berühmte Komponistin und Dirigentin <a href=\"http://de.wikipedia.org/wiki/Tan_Dun\" target=\"_blank\"><em>Tan Dun</em></a>,
