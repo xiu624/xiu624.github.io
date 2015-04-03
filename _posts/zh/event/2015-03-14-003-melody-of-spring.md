@@ -42,3 +42,16 @@ side_content: "<p><img src=\"/images/event/003-poster.jpg\"></p>
 
 门票18欧，在München-Ticket售票点和<a href="http://www.muenchenticket.de/guide/tickets/wg4b/Fruehlingsmelodien.html" target="_blank">www.muenchenticket.de</a>在线均有出售。
 {:.notice .bg-light}
+
+<figure class="col-two">
+    <a class="ln-gallery" href="/images/event/003-live-photo-01.jpg"><img src="/images/event/003-live-photo-01.jpg"></a>
+    <a class="ln-gallery" href="/images/event/003-live-photo-02.jpg"><img src="/images/event/003-live-photo-02.jpg"></a>
+    <a class="ln-gallery" href="/images/event/003-live-photo-03.jpg"><img src="/images/event/003-live-photo-03.jpg"></a>
+    <a class="ln-gallery" href="/images/event/003-live-photo-04.jpg"><img src="/images/event/003-live-photo-04.jpg"></a>
+    <a class="ln-gallery" href="/images/event/003-live-photo-05.jpg"><img src="/images/event/003-live-photo-05.jpg"></a>
+    <a class="ln-gallery" href="/images/event/003-live-photo-06.jpg"><img src="/images/event/003-live-photo-06.jpg"></a>
+    <a class="ln-gallery" href="/images/event/003-live-photo-07.jpg"><img src="/images/event/003-live-photo-07.jpg"></a>
+    <a class="ln-gallery" href="/images/event/003-live-photo-08.jpg"><img src="/images/event/003-live-photo-08.jpg"></a>
+    <a class="ln-gallery" href="/images/event/003-live-photo-09.jpg"><img src="/images/event/003-live-photo-09.jpg"></a>
+    <a class="ln-gallery" href="/images/event/003-live-photo-10.jpg"><img src="/images/event/003-live-photo-10.jpg"></a>
+</figure>
