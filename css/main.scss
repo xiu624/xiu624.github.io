@@ -454,10 +454,10 @@ footer .content {
     .content { max-width: 1600px; }
 }
 
-@media screen and (max-width: 1700px) { /* 1440x900, 1600x900 */
+@media screen and (min-width: 1401px) and (max-width: 1700px) { /* 1440x900, 1600x900 */
     .content { max-width: 1280px; }
     .col-four {
-        &>*:nth-child(n) {
+        &>* {
             @include span-columns(4);
             clear: none;
             @include omega(3n);
@@ -468,7 +468,7 @@ footer .content {
 @media screen and (max-width: 1400px) { /* 1280x800, 1366x768 */
     .content { max-width: 1072px; }
     .col-three, .col-four {
-        &>*:nth-child(n) {
+        &>* {
             @include span-columns(6);
             clear: none;
             @include omega(2n);
@@ -500,7 +500,7 @@ footer .content {
         font-size: 55vw;
     }
     .col-two-one, .col-two, .col-three, .col-four {
-        &>*:nth-child(n) {
+        &>*:nth-child(1n) {
             @include span-columns(12);
             @include omega(1n);
         }
