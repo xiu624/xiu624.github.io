@@ -28,7 +28,7 @@ about:
         This happens to be a unique asset for us. We had the opportunity to mix our ideas, inspire from each other and find our own style.
         We do not want to define our music, nor want to exclude any existing music style, so "fusion" has become the core of our works.</p>
         <p>We have professional backgrounds in occidental music and ethnic feelings in oriental culture. With this advantage we start to tryout some of our ideas.
-        For example, use occidental instruments in "Mo Li Hua (Jasmine)", <a href="/en/work/001-saima"><em>"Sai Ma (Horse racing)"</em></a> and other traditional Chinese music pieces. 
+        For example, use occidental instruments in "Mo Li Hua (Jasmine flower)", <a href="/en/work/001-saima"><em>"Sai Ma (Horse racing)"</em></a> and other traditional Chinese music pieces. 
         Or the other way round, add oriental feelings into well known western favorites like <a href="/en/work/002-libertango"><em>"Libertango"</em></a> and "Tico Tico". Works mixing of Chinese and occidental music styles are naturally born.
         Of course, this is just a beginning. We are constantly refreshing our ideas and will bring more works of this type to the public.</p>
         <p>Actually "fusion" is not new. In China, more and more composers use occidental elements in their works.
