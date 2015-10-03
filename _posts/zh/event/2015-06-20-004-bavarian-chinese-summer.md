@@ -21,5 +21,13 @@ side_content: "<img src=\"/images/event/004-poster.jpg\">"
 
 Prims工作室将参加今年的狂欢，届时将在市政厅广场为观众带来一场别具中国特色的现场演出，我们期待您的光临。
 
-官方活动链接（德语）：<a href="http://www.dietfurt.de/veranstaltungen/bayrisch-chinesischer_sommer_2-120778-9048640/" target="_blank">点击进入</a>
-{:#jiangzhoudagu .notice .bg-light}
+<figure class="col-two">
+    <a class="ln-gallery" href="/images/event/004-live-photo-01.jpg"><img src="/images/event/004-live-photo-01.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-02.jpg"><img src="/images/event/004-live-photo-02.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-03.jpg"><img src="/images/event/004-live-photo-03.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-04.jpg"><img src="/images/event/004-live-photo-04.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-05.jpg"><img src="/images/event/004-live-photo-05.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-06.jpg"><img src="/images/event/004-live-photo-06.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-07.jpg"><img src="/images/event/004-live-photo-07.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-08.jpg"><img src="/images/event/004-live-photo-08.jpg"></a>
+</figure>

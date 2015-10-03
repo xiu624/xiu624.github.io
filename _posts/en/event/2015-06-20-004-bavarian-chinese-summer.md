@@ -22,5 +22,13 @@ a mini marathon in the old town and the "Festmeile", where you can taste the dif
 Prims Studio will participate this year's festival, we will give a live show at the town hall square.
 We are looking forward to meet you there.
 
-Official festival page (German): <a href="http://www.dietfurt.de/veranstaltungen/bayrisch-chinesischer_sommer_2-120778-9048640/" target="_blank">Enter here.</a>
-{:#jiangzhoudagu .notice .bg-light}
+<figure class="col-two">
+    <a class="ln-gallery" href="/images/event/004-live-photo-01.jpg"><img src="/images/event/004-live-photo-01.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-02.jpg"><img src="/images/event/004-live-photo-02.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-03.jpg"><img src="/images/event/004-live-photo-03.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-04.jpg"><img src="/images/event/004-live-photo-04.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-05.jpg"><img src="/images/event/004-live-photo-05.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-06.jpg"><img src="/images/event/004-live-photo-06.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-07.jpg"><img src="/images/event/004-live-photo-07.jpg"></a>
+    <a class="ln-gallery" href="/images/event/004-live-photo-08.jpg"><img src="/images/event/004-live-photo-08.jpg"></a>
+</figure>

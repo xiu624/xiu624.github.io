@@ -38,9 +38,6 @@ Sie hören auch die traditionellen Musikstücke:
 
 aufgeführt von der chinesische Musikgruppe Jiyuetian unter der Leitung von Meister Mu Sa.
 
-Karten zu € 18,- erhältlich an den Vorverkaufsstellen von München Ticket und auf <a href="http://www.muenchenticket.de/guide/tickets/wg4b/Fruehlingsmelodien.html" target="_blank">www.muenchenticket.de</a>.
-{:.notice .bg-light}
-
 <figure class="col-two">
     <a class="ln-gallery" href="/images/event/003-live-photo-01.jpg"><img src="/images/event/003-live-photo-01.jpg"></a>
     <a class="ln-gallery" href="/images/event/003-live-photo-02.jpg"><img src="/images/event/003-live-photo-02.jpg"></a>
