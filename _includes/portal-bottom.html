@@ -1,7 +1,7 @@
 {% if page.portal.bottom_image %}
-<div class="portal-image{% if page.portal.bottom_image_fullsize %} portal-fullsize{% endif %}" style="background-image:url({{ page.portal.bottom_image }});">
+<div class="portal-image{% if layout.portal.bottom_image_fullsize %} portal-fullsize{% endif %}" style="background-image:url({{ page.portal.bottom_image }});">
 {% endif %}
-<section id="portal-bottom-content" class="{{ page.portal.bottom_content_class }}" style="{% if page.portal.bottom_image %}background-color:transparent;{% endif %}">
+<section id="portal-bottom-content" class="{{ layout.portal.bottom_content_class }}" style="{% if page.portal.bottom_image %}background-color:transparent;{% endif %}">
     <div class="content">
         {% if page.portal.bottom_text %}
         <h1 class="portal-text">{{ page.portal.bottom_text }}</h1>

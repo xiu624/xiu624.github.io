@@ -4,6 +4,7 @@ title: Home
 locale: en
 portal:
     top_text: <em>We live music</em> the same way we live our lives. Being fresh and persistent.
+    top_image: "/images/portal-bg-01.jpg"
 home:
     about: <h1>About us</h1>
         <p>Founded in Munich, Prims is a professional music studio for young musicians who have a music dream.</p>

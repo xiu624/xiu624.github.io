@@ -5,22 +5,6 @@ url: http://www.prims-studio.de
 locales: ["de", "en", "zh"]
 default_locale: de
 
-# Page default settings
-defaults:
-    -   scope:
-            path: ""
-        values:
-            portal:
-                top: off
-                top_margin_class: "txt-white bg-transparent"
-                top_content_class: "txt-white bg-black header-emphasis"
-                top_image_fullsize: true
-                bottom: off
-                bottom_content_class: "txt-white bg-grey header-emphasis"
-                bottom_image_fullsize: true
-            locale: de
-            locale_menu: on
-
 # Jekyll settings
 sass:
     sass_dir: _sass

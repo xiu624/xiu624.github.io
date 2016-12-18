@@ -4,6 +4,7 @@ title: 关于我们
 locale: zh
 portal:
     top_text: <em>我们</em>专注<em>音乐</em>的热情，实践着一个又一个年轻的梦想。
+    bottom_image: "/images/portal-bg-02.jpg"
 about:
     s1_title: <h1><em>Pri</em>ma <em>M</em>u<em>s</em>ik，是一种态度。</h1>
     s1_content: <h3>做音乐，也享受音乐。</h3>

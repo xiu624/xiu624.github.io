@@ -4,6 +4,7 @@ title: 首页
 locale: zh
 portal:
     top_text: <em>我们</em>对待<em>音乐</em>的态度，正如我们对待生活一样，鲜活且执着。
+    top_image: "/images/portal-bg-01.jpg"
 home:
     about: <h1>关于我们</h1>
         <p>Prims音乐工作室成立于德国巴伐利亚州府慕尼黑，是为有着共同音乐梦想的年轻人而创立的专业音乐工作室。</p>

@@ -4,6 +4,7 @@ title: Über Uns
 locale: de
 portal:
     top_text: <em>Wir leben Musik</em> so, dass unsere Begeisterung viele Träume wahr werden lässt.
+    bottom_image: "/images/portal-bg-02.jpg"
 about:
     s1_title: <h1><em>Pri</em>ma <em>M</em>u<em>s</em>ik ist eine Einstellung.</h1>
     s1_content: "<h3>Mache Musik und geniesse es.</h3>
@@ -36,7 +37,7 @@ about:
         Verschmelzung ist der Kern unserer Arbeit.</p>
         <p>Wir haben professionelle Hintergrund in der abendländischen Musik und eine emotionale ethnische
         Verbundenheit mit der orientalischen Kultur. Mit diesem Vorteil beginnen wir einige unserer Ideen.
-        Wir verwenden zum Beispiel westliche Instrumente in traditionellen chinesischen Musikstücken wie 
+        Wir verwenden zum Beispiel westliche Instrumente in traditionellen chinesischen Musikstücken wie
         <a href=\"/work/003-molihua\"><em>\"Mo Li Hua (Jasminblüte)\"</em></a>,
         <a href=\"/work/001-saima\"><em>\"Sai Ma (Das Pferderennen)\"</em></a>, und integrieren orientalische Gefühle in westliche Klassiker wie
         <a href=\"/work/002-libertango\"><em>\"Libertango\"</em></a> und \"Tico Tico\". Werke im Sinne der Fusion von chinesischen und westlichen Musikstile entstehen auf natürliche Weise.

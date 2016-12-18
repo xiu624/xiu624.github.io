@@ -1,17 +1,17 @@
 {% if page.portal.top_image %}
-<div class="portal-image{% if page.portal.top_image_fullsize %} portal-fullsize{% endif %}" style="background-image:url({{ page.portal.top_image }});">
+<div class="portal-image{% if layout.portal.top_image_fullsize %} portal-fullsize{% endif %}" style="background-image:url({{ page.portal.top_image }});">
 {% endif %}
-<section id="portal-top-margin" class="{{ page.portal.top_margin_class }}" style="{% if page.portal.top_image %}background-color:transparent;{% endif %}">
+<section id="portal-top-margin" class="{{ layout.portal.top_margin_class }}" style="{% if page.portal.top_image %}background-color:transparent;{% endif %}">
     <div class="header-margin"></div>
 </section>
-<section id="portal-top-content" class="{{ page.portal.top_content_class }}" style="{% if page.portal.top_image %}background-color:transparent;{% endif %}">
+<section id="portal-top-content" class="{{ layout.portal.top_content_class }}" style="{% if page.portal.top_image %}background-color:transparent;{% endif %}">
     <div class="content">
         {% if page.portal.top_text %}
         <h1 class="portal-text">{{ page.portal.top_text }}</h1>
         {% endif %}
     </div>
 </section>
-{% if page.portal.top_image and page.portal.top_image_fullsize %}
+{% if page.portal.top_image and layout.portal.top_image_fullsize %}
 <div class="section-jumper"><a class="ln-mono txt-white bg-black bg-semi-transparent" href="#s1">{{ site.data[page.locale].label.more }} <i class="icon-angle-down"></i></a></div>
 {% endif %}
 {% if page.portal.top_image %}

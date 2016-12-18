@@ -4,9 +4,9 @@
 {% include head.html %}
 <body id="page">
 {% include header.html %}
-{% if page.portal.top %}{% include portal-top.html %}{% endif %}
+{% if layout.portal.top %}{% include portal-top.html %}{% endif %}
 {{ content }}
-{% if page.portal.bottom %}{% include portal-bottom.html %}{% endif %}
+{% if layout.portal.bottom %}{% include portal-bottom.html %}{% endif %}
 {% include footer.html %}
 <script src="/js/vendor/jquery.min.js"></script>
 <script src="/js/vendor/scroll-support.min.js"></script>
