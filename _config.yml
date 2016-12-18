@@ -11,7 +11,7 @@ sass:
     style: compressed
 permalink: /:categories/:title/
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 # Gem settings
 gems:
