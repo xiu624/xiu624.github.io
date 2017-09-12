@@ -5,16 +5,13 @@ url: http://www.prims-studio.de
 locales: ["de", "en", "zh"]
 default_locale: de
 
-# Jekyll settings
+# Settings
 sass:
-    sass_dir: _sass
-    style: compressed
+  style: compressed
 permalink: /:categories/:title/
-markdown: kramdown
-highlighter: rouge
+future: true
+exclude: ["README.md"]
 
-# Gem settings
-gems:
+# Plugins
+plugins:
   - jekyll-sitemap
-
-exclude: ["README.md", "LICENSE"]
