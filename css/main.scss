@@ -95,11 +95,6 @@ a, a:active, a:visited {
     text-decoration: none;
     color: $blue-light;
     &:hover { color: $red-light; }
-    em {
-        @extend a.ln-mono;
-        font-weight: bold;
-        text-decoration: underline;
-    }
 }
 
 section {
@@ -113,16 +108,34 @@ i.icon-inline {
 .txt-white {
     color: $white;
     @include ln-mono($white);
+    a em {
+        &:hover { color: $red-light; }
+        color: $white;
+        font-weight: bold;
+        text-decoration: underline;
+    }
 }
 
 .txt-black {
     color: $black;
     @include ln-mono($black);
+    a em {
+        &:hover { color: $red-light; }
+        color: $black;
+        font-weight: bold;
+        text-decoration: underline;
+    }
 }
 
 .txt-red {
     color: $red;
     @include ln-mono($red);
+    a em {
+        &:hover { color: $red-light; }
+        color: $red;
+        font-weight: bold;
+        text-decoration: underline;
+    }
 }
 
 .bg-transparent {
@@ -284,7 +297,7 @@ img {
 }
 
 .video-container iframe,
-.video-container embed, 
+.video-container embed,
 .video-container object {
     position:absolute;
     width: 100%;
@@ -328,13 +341,14 @@ header {
     transition: background-color 0.4s, box-shadow 0.4s;
     &.header-emphasis {
         box-shadow: 0px 0px 10px rgba($black, 0.25);
-        &.bg-white { @extend .bg-white.bg-semi-transparent; }
-        &.bg-light { @extend .bg-light.bg-semi-transparent; }
-        &.bg-grey { @extend .bg-grey.bg-semi-transparent; }
-        &.bg-black { @extend .bg-black.bg-semi-transparent; }
-        &.bg-red { @extend .bg-red.bg-semi-transparent; }
-        &.bg-blue { @extend .bg-blue.bg-semi-transparent; }
-        &.bg-orange { @extend .bg-orange.bg-semi-transparent; }
+        &.bg-white { background-color: rgba($white, 0.9); }
+        &.bg-light { background-color: rgba(darken($white, 10%), 0.9); }
+        &.bg-grey { background-color: rgba($grey, 0.9); }
+        &.bg-black { background-color: rgba($black, 0.6); }
+        &.bg-red { background-color: rgba($red, 0.9); }
+        &.bg-blue { background-color: rgba($blue, 0.9); }
+        &.bg-green { background-color: rgba($green, 0.9); }
+        &.bg-orange { background-color: rgba($orange, 0.9); }
     }
     &.txt-black {
         text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.33);
@@ -357,7 +371,7 @@ header {
             display: none;
             text-align: right;
         }
-        &.nav-menu { 
+        &.nav-menu {
             display: block;
             text-align: center;
         }
@@ -519,4 +533,3 @@ footer .content {
         height: 80%;
     }
 }
-
