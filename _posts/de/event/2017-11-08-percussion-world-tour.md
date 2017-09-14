@@ -8,7 +8,7 @@ locale: de
 categories: event
 title: Percussion's World Tour
 teaser_image: /images/event/2017-11-08/teaser.jpg
-time: 18. November 2017, 19:30 Uhr
+time: 8. November 2017, 19:30 Uhr
 place: Black Box im Gasteig, Rosenheimer Straße 5, 81667 München
 excerpt: Prims Studio laden Sie zu einer Weltreise der Schlagzeugmusik ein.
 side_content: "<img src=\"/images/event/2017-11-08/poster.jpg\">"

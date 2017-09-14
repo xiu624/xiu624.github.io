@@ -8,7 +8,7 @@ locale: en
 categories: en event
 title: Percussion's World Tour
 teaser_image: /images/event/2017-11-08/teaser.jpg
-time: November 18, 2017, at 7:30 pm.
+time: November 8, 2017, at 7:30 pm.
 place: Black Box im Gasteig, Rosenheimer Straße 5, 81667 München
 excerpt: Prims Studio invite you to a world tour of drum music.
 side_content: "<img src=\"/images/event/2017-11-08/poster.jpg\">"
