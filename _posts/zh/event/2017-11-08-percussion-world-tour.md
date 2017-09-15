@@ -31,4 +31,4 @@ side_content: "<img src=\"/images/event/2017-11-08/poster.jpg\">"
 - Nebojša Jovan Živković - To the Gods of Rhythm
 - Nebojša Jovan Živković - Trio per Uno
 
-订票请咨询München Ticket售票点或访问网站<a href="https://www.muenchenticket.de/guide/tickets/21o8v/Percussion+s+World+Tour.html" target="_blank"><em>www.muenchenticket.de</em></a>.
+订票请咨询München Ticket售票点或点击<a href="https://www.muenchenticket.de/guide/tickets/21o8v/Percussion+s+World+Tour.html" target="_blank"><em>这里</em></a>.

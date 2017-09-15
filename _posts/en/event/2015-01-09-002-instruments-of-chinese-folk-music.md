@@ -15,9 +15,9 @@ side_content: <p><img src="/images/event/002-poster.jpg"></p>
     <h5>Partner</h5><p><a href="http://www.konfuzius-muenchen.de/" target="_blank"><img src="/images/partner/konfuzius-institut-muenchen.png"></a></p>
 ---
 
-Beginning 2015, Prims studio is invited in "Konfuzius-Institut München" for its 96th "Jour Fixe" to give a presentation about the instruments of Chinese folk music.
+Beginning 2015, Prims studio was invited in "Konfuzius-Institut München" for its 96th "Jour Fixe" to give a presentation about the instruments of Chinese folk music.
 
-Chinese folk music instruments have many species and long historical background. We will tell you the story behind these instruments, after that there will be some live performances.
+Chinese folk music instruments have many species and long historical background. We shared the story behind these instruments and also demonstrated with some live performances.
 
 <figure class="col-two">
     <a class="ln-gallery" href="/images/event/002-live-photo-01.jpg"><img src="/images/event/002-live-photo-01.jpg"></a>

@@ -15,10 +15,9 @@ side_content: "<p><img src=\"/images/event/003-poster.jpg\"></p>
     <h5>Partner</h5><p><a href=\"http://www.jiyuetian.com\" target=\"_blank\"><img style=\"border&#58; 1px solid #000\" src=\"/images/partner/jiyuetian.jpg\"></a></p>"
 ---
 
-Freuen Sie sich mit uns auf den nahenden Frühling und lassen Sie sich verzaubern von den lieblichen Klängen uralter chinesischer Weisen,
-gemischt mit modernen Klängen gestaltet durch das Prims Studio und die chinesische Musikgruppe Jiyuetian. 
+Frühjahr 2015 wurde das Münchner Publikum von den lieblichen Klängen uralter chinesischer Weisen and modernen Klängen gestaltet durch das Prims Studio und die chinesische Musikgruppe Jiyuetian verzaubert.
 
-Wir interpretieren die moderneren Musikstücke:
+Ein paar modernen Musikstücke von das Prims Studio:
 
 - Ein Bulle kämpft gegen einen Tiger
 - Die Jasminblüte
@@ -27,7 +26,7 @@ Wir interpretieren die moderneren Musikstücke:
 - Tico Tico
 - Surrounded on all Sides/Von allen Seiten umzingelt
 
-Sie hören auch die traditionellen Musikstücke:
+Ein paar traditionellen Musikstücke von der chinesische Musikgruppe Jiyuetian unter der Leitung von Meister Mu Sa:
 
 - Moodlicht scheint durch Bambus
 - Blumen am Flussufer in einer Frühlingsmondnacht
@@ -35,8 +34,6 @@ Sie hören auch die traditionellen Musikstücke:
 - Eine Nacht im Dorf der Dong
 - Tanz der Yao
 - Frühling des Tianshan-Berges
-
-aufgeführt von der chinesische Musikgruppe Jiyuetian unter der Leitung von Meister Mu Sa.
 
 <figure class="col-two">
     <a class="ln-gallery" href="/images/event/003-live-photo-01.jpg"><img src="/images/event/003-live-photo-01.jpg"></a>

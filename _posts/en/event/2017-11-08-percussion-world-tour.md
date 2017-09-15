@@ -31,4 +31,4 @@ Programm:
 - Nebojša Jovan Živković - To the Gods of Rhythm
 - Nebojša Jovan Živković - Trio per Uno
 
-Tickets can be found at München Ticket service points and online via <a href="https://www.muenchenticket.de/guide/tickets/21o8v/Percussion+s+World+Tour.html" target="_blank"><em>www.muenchenticket.de</em></a>.
+Tickets can be found at München Ticket service points or directly from <a href="https://www.muenchenticket.de/guide/tickets/21o8v/Percussion+s+World+Tour.html" target="_blank"><em>here</em></a>.

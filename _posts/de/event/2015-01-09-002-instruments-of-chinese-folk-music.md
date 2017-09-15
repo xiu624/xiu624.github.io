@@ -17,7 +17,7 @@ side_content: <p><img src="/images/event/002-poster.jpg"></p>
 
 Anfang 2015, Prims Studio befindet sich in "Konfuzius-Institut München" für seine 96. "Jour Fixe", eine Präsentation über die Instrumente der chinesischen Volksmusik geben eingeladen.
 
-Chinesische Volksmusik-Instrumente haben viele Arten und langen historischen Hintergrund. Wir werden Ihnen erzählen, die Geschichte hinter diesen Instrumenten, außerdem wird es zu verschiedenen Arten eine Live Aufführung geben.
+Chinesische Volksmusikinstrumente haben viele Arten und einen langen historischen Hintergrund. Wir haben die Geschichte hinter diesen Instrumenten geteilt und auch mit einigen Live-Auftritten gezeigt.
 
 <figure class="col-two">
     <a class="ln-gallery" href="/images/event/002-live-photo-01.jpg"><img src="/images/event/002-live-photo-01.jpg"></a>

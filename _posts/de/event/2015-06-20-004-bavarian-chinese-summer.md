@@ -2,11 +2,11 @@
 layout: post
 portal:
     top: on
-    top_text: Bayrisch-Chinesischer Sommer 2015
+    top_text: Bayrisch-Chinesischer Sommer
     top_image: /images/event/004-portal.jpg
 locale: de
 categories: event
-title: Bayrisch-Chinesischer Sommer 2015
+title: Bayrisch-Chinesischer Sommer
 teaser_image: /images/event/004-teaser.jpg
 time: 20. Juni 2015, 19:00 Uhr
 place: Rathaus, Hauptstraße 26, 92345 Dietfurt
@@ -14,14 +14,10 @@ excerpt: Sommerfest und Live-Show.
 side_content: "<img src=\"/images/event/004-poster.jpg\">"
 ---
 
-"Bayrisch-Chinesischer Sommer" ist ein Altstadtfest in
-<a href="http://de.wikipedia.org/wiki/Dietfurt_an_der_Altm%C3%BChl" target="_blank"><em>Dietfurt an der Altmühl</em></a>.
-Bei dem die Besucher den Charme zweier Welten kennenlernen können. Mit viel Musik, 
-einem Altstadtlauf durch Dietfurt und einer bayrisch-chinesischen Festmeile, 
-wo die leckersten Schmankerln aus Bayern und dem Reich der Mitte serviert werden.
+"Bayrisch-Chinesischer Sommer" ist ein Altstadtfest in <a href="http://de.wikipedia.org/wiki/Dietfurt_an_der_Altm%C3%BChl" target="_blank"><em>Dietfurt an der Altmühl</em></a>. Bei dem die Besucher den Charme zweier Welten kennenlernen können. Mit viel Musik,
+einem Altstadtlauf durch Dietfurt und einer bayrisch-chinesischen Festmeile, wo die leckersten Schmankerln aus Bayern und dem Reich der Mitte serviert werden.
 
-Dieses Jahr ist das Prims Studio dabei. Wir geben eine Live-Show auf dem Rathausplatz.
-Wir freuen uns auf Ihren Besuch.
+Jahr 2015 war das Prims Studio dabei. Wir haben eine Live-Show auf dem Rathausplatz gegeben.
 
 <figure class="col-two">
     <a class="ln-gallery" href="/images/event/004-live-photo-01.jpg"><img src="/images/event/004-live-photo-01.jpg"></a>

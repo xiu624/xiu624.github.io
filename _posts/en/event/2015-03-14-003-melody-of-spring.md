@@ -15,10 +15,9 @@ side_content: "<p><img src=\"/images/event/003-poster.jpg\"></p>
     <h5>Partner</h5><p><a href=\"http://www.jiyuetian.com\" target=\"_blank\"><img style=\"border&#58; 1px solid #000\" src=\"/images/partner/jiyuetian.jpg\"></a></p>"
 ---
 
-Spring is coming and you will be enchanted by the classic ancient Chinese music,
-mixed with modern music pieces brought by Prims Studio and the Chinese music group Jiyuetian.
+Spring 2015, the audience of Munich were enchanted by the classic ancient Chinese music and modern music pieces brought by Prims Studio and the Chinese music group Jiyuetian.
 
-Some of the modern pieces we will perform during the show:
+Some of the modern pieces from Prims Studio:
 
 - A bull fights a tiger
 - Mo Li Hua (Jasmine)
@@ -27,7 +26,7 @@ Some of the modern pieces we will perform during the show:
 - Tico Tico
 - Surrounded on all Sides
 
-You will also be hearing the traditional pieces from the Chinese music group Jiyuetian under the direction of master Mu Sa:
+Some of the traditional pieces from the Chinese music group Jiyuetian under the direction of master Mu Sa:
 
 - Moonlight shines through bamboos
 - Flowers by river bank beneath the spring moonlight
