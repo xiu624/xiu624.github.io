@@ -1,7 +1,6 @@
 ---
 layout: post
 portal:
-    top: on
     top_text: Instruments of Chinese folk music
     top_image: /images/event/002-portal.jpg
 locale: en

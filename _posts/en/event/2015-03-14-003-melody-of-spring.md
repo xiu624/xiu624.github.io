@@ -1,7 +1,6 @@
 ---
 layout: post
 portal:
-    top: on
     top_text: Melody of Spring
     top_image: /images/event/003-portal.jpg
 locale: en

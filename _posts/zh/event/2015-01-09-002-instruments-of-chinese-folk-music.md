@@ -1,7 +1,6 @@
 ---
 layout: post
 portal:
-    top: on
     top_text: 中国民族器乐赏析
     top_image: /images/event/002-portal.jpg
 locale: zh

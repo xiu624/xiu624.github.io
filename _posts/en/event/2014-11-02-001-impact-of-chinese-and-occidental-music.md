@@ -1,7 +1,6 @@
 ---
 layout: post
 portal:
-    top: on
     top_text: Impact of Chinese and occidental music
     top_image: /images/event/001-portal.jpg
 locale: en

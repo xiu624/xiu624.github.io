@@ -3,6 +3,7 @@
 @import "vendor/bourbon/bourbon";
 @import "vendor/neat/neat";
 @import "vendor/magnific-popup/magnific-popup";
+@import "vendor/swiper/swiper";
 @import "fonts";
 @import "variables";
 @import "mixins";
@@ -10,6 +11,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 html {
@@ -396,7 +398,16 @@ footer .content {
     padding: $gutter/2 $gutter
 }
 
-.portal-image {
+.swiper-slide {
+    background-size: cover;
+    background-position: top center;
+}
+
+.swiper-button-disabled {
+    display: none;
+}
+
+.portal {
     position: relative;
     width: 100%;
     background-attachment: fixed;
@@ -405,13 +416,22 @@ footer .content {
     &.portal-fullsize {
         height: 100%;
         min-height: 500px;
-        #portal-top-margin {
+        .portal-text {
+            padding: 0;
+        }
+        .portal-top-margin {
             position: relative;
             height: 20%;
         }
-        #portal-top-content {
+        .portal-top-content {
             position: relative;
             height: 80%;
+            &.txt-white {
+                @include ln-mono($white, $white);
+            }
+            a:hover .portal-link {
+                color: $red-light;
+            }
             .content {
                 position: absolute;
                 width: 100%;
@@ -420,7 +440,7 @@ footer .content {
                 top: 0; right: 0; bottom: 0; left: 0;
             }
         }
-        #portal-bottom-content {
+        .portal-bottom-content {
             position: relative;
             height: 100%;
             .content {
@@ -430,9 +450,6 @@ footer .content {
                 margin: auto;
                 top: 0; right: 0; bottom: 0; left: 0;
             }
-        }
-        .portal-text {
-            padding: 0;
         }
     }
 }
@@ -529,7 +546,10 @@ footer .content {
             }
         }
     }
-    .portal-image.portal-fullsize #portal-top-content .content {
+    .portal-image.portal-fullsize .portal-top-content .content {
         height: 80%;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
     }
 }

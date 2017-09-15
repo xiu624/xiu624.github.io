@@ -1,16 +1,16 @@
 ---
 layout: post
 portal:
-    top: on
     top_text: 打击乐的世界之旅
     top_image: /images/event/2017-11-08/portal.jpg
+    show_on_homepage: true
 locale: zh
 categories: zh event
 title: 打击乐的世界之旅
 teaser_image: /images/event/2017-11-08/teaser.jpg
 time: 2017年11月8日，晚七点半
 place: Black Box im Gasteig, Rosenheimer Straße 5, 81667 München
-excerpt: 让Prims带领您进行一场奇妙的音乐环球之旅.
+excerpt: 让Prims带领您进行一场奇妙的音乐环球之旅。
 side_content: "<img src=\"/images/event/2017-11-08/poster.jpg\">"
 ---
 

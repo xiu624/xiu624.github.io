@@ -2,15 +2,33 @@
 layout: default
 locale_menu: on
 portal:
-    top: on
-    top_margin_class: "txt-white bg-transparent"
-    top_content_class: "txt-white bg-black header-emphasis"
-    top_image_fullsize: true
+    top: off
     bottom: off
-    bottom_content_class: "txt-white bg-grey header-emphasis"
-    bottom_image_fullsize: false
 ---
 {% include variables.html %}
+<div class="swiper-container portal portal-fullsize">
+    <div class="swiper-wrapper">
+        {% assign posts = site.categories.event | where: "locale", page.locale | where: "portal.show_on_homepage", true %}
+        {% for post in posts %}
+        <div class="swiper-slide" style="background-image:url({{ post.portal.top_image }});">
+            <section class="portal-top-margin txt-white bg-transparent">
+                <div class="header-margin"></div>
+            </section>
+            <section class="portal-top-content txt-white bg-black header-emphasis" style="background-color:transparent;">
+                <a class="ln-mono" href="{{ post.url }}">
+                    <div class="content">
+                        <h1 class="portal-text">{{ post.portal.top_text }}</h1>
+                        <p class="portal-text">{{ post.excerpt }} <span class="portal-link">{{ site.data[page.locale].label.learn_more }} >></span></p>
+                    </div>
+                </a>
+            </section>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+</div>
 <section id="s1" class="txt-white bg-red header-emphasis">
 <div class="content header-margin col-two-one">
     <div>

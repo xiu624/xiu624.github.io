@@ -1,7 +1,6 @@
 ---
 layout: post
 portal:
-    top: on
     top_text: Bayrisch-Chinesischer Sommer
     top_image: /images/event/004-portal.jpg
 locale: de

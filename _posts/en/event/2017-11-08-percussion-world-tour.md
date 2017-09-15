@@ -1,9 +1,9 @@
 ---
 layout: post
 portal:
-    top: on
     top_text: Percussion's World Tour
     top_image: /images/event/2017-11-08/portal.jpg
+    show_on_homepage: true
 locale: en
 categories: en event
 title: Percussion's World Tour

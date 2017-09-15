@@ -1,7 +1,6 @@
 ---
 layout: post
 portal:
-    top: on
     top_text: 巴伐利亚中国之夏
     top_image: /images/event/004-portal.jpg
 locale: zh

@@ -9,6 +9,7 @@
 {% if layout.portal.bottom %}{% include portal-bottom.html %}{% endif %}
 {% include footer.html %}
 <script src="/js/vendor/jquery.min.js"></script>
+<script src="/js/vendor/swiper.jquery.min.js"></script>
 <script src="/js/vendor/scroll-support.min.js"></script>
 <script src="/js/vendor/magnific-popup.min.js"></script>
 <script>
@@ -41,6 +42,15 @@ $(document).ready(function() {
     });
     // enable smooth in page links
     $.scrollSmoothInPage(0.4);
+    // enable swiper
+    var mySwiper = new Swiper('.swiper-container', {
+        autoplay: 5000,
+        autoplayDisableOnInteraction: false,
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev'
+    });
     // enable image links
     $('.ln-img').magnificPopup({
 		type: 'image'

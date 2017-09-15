@@ -1,7 +1,6 @@
 ---
 layout: post
 portal:
-    top: on
     top_text: Bavarian Chinese Summer
     top_image: /images/event/004-portal.jpg
 locale: en

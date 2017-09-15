@@ -11,10 +11,10 @@
 }
 
 // Mono color link (take text color)
-@mixin ln-mono($color) {
+@mixin ln-mono($color, $hover-color:$red-light) {
     a.ln-mono, a.ln-mono:active, a.ln-mono:visited,
     &.ln-mono, &.ln-mono:active, &.ln-mono:visited {
         color: $color;
-        &:hover { color: $red-light; }
+        &:hover { color: $hover-color; }
     }
 }

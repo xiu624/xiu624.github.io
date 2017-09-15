@@ -1,7 +1,6 @@
 ---
 layout: post
 portal:
-    top: on
     top_text: 中西音乐的碰撞
     top_image: /images/event/001-portal.jpg
 locale: zh
