@@ -20,6 +20,10 @@ Four talented young musicians from the Prims Studio invite you to a world tour o
 
 Live music combined with video image and special lighting effects, the concert promises you a multidimensional audio-visual pleasure!
 
+<figure class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x3BdJfa6eQo" frameborder="0" allowfullscreen></iframe>
+</figure>
+
 Programm:
 
 - Minxiong Li - A Well Matched Fight

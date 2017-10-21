@@ -20,6 +20,10 @@ side_content: "<img src=\"/images/event/2017-11-08/poster.jpg\">"
 
 音乐会期间将会配有背景视频，并配合每个乐曲的风格进行灯光设置。音乐会将给大家带来一次声光电，听觉加视觉的多位音乐体验。
 
+<figure class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x3BdJfa6eQo" frameborder="0" allowfullscreen></iframe>
+</figure>
+
 曲目:
 
 - 李民雄 - 龙腾虎跃

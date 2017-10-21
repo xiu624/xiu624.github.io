@@ -20,6 +20,10 @@ Vier talentierte jungen Musiker vom Prims Studio laden Sie zu einer Weltreise de
 
 Live Musik kombiniert mit Video image, variierte Beleuchtungen nach Musikstile der Stücke, das Konzert verspricht  Ihnen einen multidimensionalen Audio-visuellen Genuss!
 
+<figure class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x3BdJfa6eQo" frameborder="0" allowfullscreen></iframe>
+</figure>
+
 Programm:
 
 - Minxiong Li - A Well Matched Fight
