@@ -20,9 +20,7 @@ side_content: "<img src=\"/images/event/2017-11-08/poster.jpg\">"
 
 音乐会期间将会配有背景视频，并配合每个乐曲的风格进行灯光设置。音乐会将给大家带来一次声光电，听觉加视觉的多位音乐体验。
 
-<figure class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/x3BdJfa6eQo" frameborder="0" allowfullscreen></iframe>
-</figure>
+订票请咨询München Ticket售票点或访问<a href="https://www.muenchenticket.de/guide/tickets/21o8v/Percussion+s+World+Tour.html" target="_blank"><em>www.muenchenticket.de</em></a>.
 
 曲目:
 
@@ -35,4 +33,10 @@ side_content: "<img src=\"/images/event/2017-11-08/poster.jpg\">"
 - Nebojša Jovan Živković - To the Gods of Rhythm
 - Nebojša Jovan Živković - Trio per Uno
 
-订票请咨询München Ticket售票点或点击<a href="https://www.muenchenticket.de/guide/tickets/21o8v/Percussion+s+World+Tour.html" target="_blank"><em>这里</em></a>.
+<figure class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x3BdJfa6eQo" frameborder="0" allowfullscreen></iframe>
+</figure>
+
+<figure class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7oOjZV_y-J4" frameborder="0" allowfullscreen></iframe>
+</figure>

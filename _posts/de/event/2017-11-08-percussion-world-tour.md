@@ -20,9 +20,7 @@ Vier talentierte jungen Musiker vom Prims Studio laden Sie zu einer Weltreise de
 
 Live Musik kombiniert mit Video image, variierte Beleuchtungen nach Musikstile der Stücke, das Konzert verspricht  Ihnen einen multidimensionalen Audio-visuellen Genuss!
 
-<figure class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/x3BdJfa6eQo" frameborder="0" allowfullscreen></iframe>
-</figure>
+Karten erhältlich an den Vorverkaufsstellen von München Ticket oder direkt von <a href="https://www.muenchenticket.de/guide/tickets/21o8v/Percussion+s+World+Tour.html" target="_blank"><em>www.muenchenticket.de</em></a>.
 
 Programm:
 
@@ -35,4 +33,10 @@ Programm:
 - Nebojša Jovan Živković - To the Gods of Rhythm
 - Nebojša Jovan Živković - Trio per Uno
 
-Karten erhältlich an den Vorverkaufsstellen von München Ticket oder direkt von <a href="https://www.muenchenticket.de/guide/tickets/21o8v/Percussion+s+World+Tour.html" target="_blank"><em>hier</em></a>.
+<figure class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/x3BdJfa6eQo" frameborder="0" allowfullscreen></iframe>
+</figure>
+
+<figure class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7oOjZV_y-J4" frameborder="0" allowfullscreen></iframe>
+</figure>
