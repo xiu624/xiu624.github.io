@@ -22,7 +22,7 @@ Live music combined with video image and special lighting effects, the concert p
 
 Tickets can be found at München Ticket offices or directly from <a href="https://www.muenchenticket.de/guide/tickets/21o8v/Percussion+s+World+Tour.html" target="_blank"><em>www.muenchenticket.de</em></a>.
 
-Programm:
+Program:
 
 - Minxiong Li - A Well Matched Fight
 - Yidong Wang - Dancing on the Drum
