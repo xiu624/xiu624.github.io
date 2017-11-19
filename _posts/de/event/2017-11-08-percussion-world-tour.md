@@ -18,9 +18,11 @@ Das Gasteig - Herbstkonzert, 3-jähriges Jubiläum der Union zur Förderung Chin
 
 Vier talentierte jungen Musiker vom Prims Studio laden Sie zu einer Weltreise der Schlagzeugmusik ein, die in Asien (China) startet und über Afrika und Südamerika als Endziel Deutschland, Europa erreicht, ein Bogenschlag und damit die Überbrückung der Kulturen zwischen Ost und West.
 
-Live Musik kombiniert mit Video image, variierte Beleuchtungen nach Musikstile der Stücke, das Konzert verspricht  Ihnen einen multidimensionalen Audio-visuellen Genuss!
+Live Musik kombiniert mit Video image, variierte Beleuchtungen nach Musikstile der Stücke, das Konzert verspricht Ihnen einen multidimensionalen Audio-visuellen Genuss!
 
-Karten erhältlich an den Vorverkaufsstellen von München Ticket oder direkt von <a href="https://www.muenchenticket.de/guide/tickets/21o8v/Percussion+s+World+Tour.html" target="_blank"><em>www.muenchenticket.de</em></a>.
+<figure class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KS0IjHuvdo4" frameborder="0" allowfullscreen></iframe>
+</figure>
 
 Programm:
 
@@ -32,11 +34,3 @@ Programm:
 - Emmanuel Séjourné - Losa
 - Nebojša Jovan Živković - To the Gods of Rhythm
 - Nebojša Jovan Živković - Trio per Uno
-
-<figure class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/x3BdJfa6eQo" frameborder="0" allowfullscreen></iframe>
-</figure>
-
-<figure class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/7oOjZV_y-J4" frameborder="0" allowfullscreen></iframe>
-</figure>

@@ -23,3 +23,9 @@
     url: http://www.facebook.com/prims.studio
     target: _blank
     class:
+
+-   type: icon
+    title: <i class="icon-youtube-play"></i>
+    url: https://www.youtube.com/user/PrimsStudio
+    target: _blank
+    class:
