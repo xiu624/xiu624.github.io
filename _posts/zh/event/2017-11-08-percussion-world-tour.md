@@ -34,3 +34,14 @@ side_content: "<img src=\"/images/event/2017-11-08/poster.jpg\">"
 - Emmanuel Séjourné - Losa
 - Nebojša Jovan Živković - To the Gods of Rhythm
 - Nebojša Jovan Živković - Trio per Uno
+
+<figure class="col-two">
+    <a class="ln-gallery" href="/images/event/2017-11-08/live-photo-01.jpg"><img src="/images/event/2017-11-08/live-photo-01.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2017-11-08/live-photo-02.jpg"><img src="/images/event/2017-11-08/live-photo-02.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2017-11-08/live-photo-03.jpg"><img src="/images/event/2017-11-08/live-photo-03.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2017-11-08/live-photo-04.jpg"><img src="/images/event/2017-11-08/live-photo-04.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2017-11-08/live-photo-05.jpg"><img src="/images/event/2017-11-08/live-photo-05.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2017-11-08/live-photo-06.jpg"><img src="/images/event/2017-11-08/live-photo-06.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2017-11-08/live-photo-07.jpg"><img src="/images/event/2017-11-08/live-photo-07.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2017-11-08/live-photo-08.jpg"><img src="/images/event/2017-11-08/live-photo-08.jpg"></a>
+</figure>
