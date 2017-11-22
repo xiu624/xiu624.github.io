@@ -1,12 +1,13 @@
 ---
 layout: post
+date: 2014-11-15 16:00
 portal:
     top_text: Libertango
-    top_image: /images/work/002-portal.jpg
+    top_image: /images/work/libertango/portal.jpg
 locale: zh
 categories: zh work
 title: Libertango
-teaser_image: /images/work/002-teaser.jpg
+teaser_image: /images/work/libertango/teaser.jpg
 time:
 place:
 excerpt: 用中国的民族乐器来演奏西洋经典，抛开民乐一如既往的抒情和柔美，再加上干练的节奏，会有怎样意想不到的效果？

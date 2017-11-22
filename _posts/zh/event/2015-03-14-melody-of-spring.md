@@ -2,15 +2,15 @@
 layout: post
 portal:
     top_text: 春之韵
-    top_image: /images/event/003-portal.jpg
+    top_image: /images/event/2015-03-14/portal.jpg
 locale: zh
 categories: zh event
 title: 春之韵
-teaser_image: /images/event/003-teaser.jpg
+teaser_image: /images/event/2015-03-14/teaser.jpg
 time: 2015年3月14日，晚七点
 place: Black Box im Gasteig, Rosenheimer Straße 5, 81667 München
 excerpt: 传统与新民族音乐会。
-side_content: "<p><img src=\"/images/event/003-poster.jpg\"></p>
+side_content: "<p><img src=\"/images/event/2015-03-14/poster.jpg\"></p>
     <h5>合作伙伴</h5><p><a href=\"http://www.jiyuetian.com\" target=\"_blank\"><img style=\"border&#58; 1px solid #000\" src=\"/images/partner/jiyuetian.jpg\"></a></p>"
 ---
 
@@ -37,14 +37,14 @@ side_content: "<p><img src=\"/images/event/003-poster.jpg\"></p>
 </table>
 
 <figure class="col-two">
-    <a class="ln-gallery" href="/images/event/003-live-photo-01.jpg"><img src="/images/event/003-live-photo-01.jpg"></a>
-    <a class="ln-gallery" href="/images/event/003-live-photo-02.jpg"><img src="/images/event/003-live-photo-02.jpg"></a>
-    <a class="ln-gallery" href="/images/event/003-live-photo-03.jpg"><img src="/images/event/003-live-photo-03.jpg"></a>
-    <a class="ln-gallery" href="/images/event/003-live-photo-04.jpg"><img src="/images/event/003-live-photo-04.jpg"></a>
-    <a class="ln-gallery" href="/images/event/003-live-photo-05.jpg"><img src="/images/event/003-live-photo-05.jpg"></a>
-    <a class="ln-gallery" href="/images/event/003-live-photo-06.jpg"><img src="/images/event/003-live-photo-06.jpg"></a>
-    <a class="ln-gallery" href="/images/event/003-live-photo-07.jpg"><img src="/images/event/003-live-photo-07.jpg"></a>
-    <a class="ln-gallery" href="/images/event/003-live-photo-08.jpg"><img src="/images/event/003-live-photo-08.jpg"></a>
-    <a class="ln-gallery" href="/images/event/003-live-photo-09.jpg"><img src="/images/event/003-live-photo-09.jpg"></a>
-    <a class="ln-gallery" href="/images/event/003-live-photo-10.jpg"><img src="/images/event/003-live-photo-10.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2015-03-14/live-photo-01.jpg"><img src="/images/event/2015-03-14/live-photo-01.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2015-03-14/live-photo-02.jpg"><img src="/images/event/2015-03-14/live-photo-02.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2015-03-14/live-photo-03.jpg"><img src="/images/event/2015-03-14/live-photo-03.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2015-03-14/live-photo-04.jpg"><img src="/images/event/2015-03-14/live-photo-04.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2015-03-14/live-photo-05.jpg"><img src="/images/event/2015-03-14/live-photo-05.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2015-03-14/live-photo-06.jpg"><img src="/images/event/2015-03-14/live-photo-06.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2015-03-14/live-photo-07.jpg"><img src="/images/event/2015-03-14/live-photo-07.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2015-03-14/live-photo-08.jpg"><img src="/images/event/2015-03-14/live-photo-08.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2015-03-14/live-photo-09.jpg"><img src="/images/event/2015-03-14/live-photo-09.jpg"></a>
+    <a class="ln-gallery" href="/images/event/2015-03-14/live-photo-10.jpg"><img src="/images/event/2015-03-14/live-photo-10.jpg"></a>
 </figure>

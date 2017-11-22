@@ -1,12 +1,13 @@
 ---
 layout: post
+date: 2014-11-15 16:00
 portal:
     top_text: Libertango
-    top_image: /images/work/002-portal.jpg
+    top_image: /images/work/libertango/portal.jpg
 locale: en
 categories: en work
 title: Libertango
-teaser_image: /images/work/002-teaser.jpg
+teaser_image: /images/work/libertango/teaser.jpg
 time:
 place:
 excerpt: Use Chinese folk instruments to play Western Tango classic, with less lyrical but more rhythm, what will be the result?

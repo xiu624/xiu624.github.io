@@ -23,9 +23,3 @@
     url: /images/weixin-qrcode.jpg
     target: _self
     class: ln-img
-
--   type: icon
-    title: <i class="icon-weibo"></i>
-    url: http://www.weibo.com/prims
-    target: _blank
-    class:
