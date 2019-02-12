@@ -48,3 +48,36 @@ about:
         <p>Because Munich is so diverse and inclusive, we have chosen to set up Prims Studio here.
         We believe we will encounter more peoples like us who love music. Together, we could build a world of our own.</p>
 ---
+
+# Our musicians
+
+<div class="col-two-one">
+<div markdown="1">
+### Ping Xu
+
+Born in Changsha (Hunan Province), China. I started take music lessons at age of 6, learning the
+traditional Chinese instrument - YangQin (dulcimer). At the age of 12, I was admitted to study drums
+at the Wuhan Conservatory (minor subjects in piano and vocals), which I successfully completed
+in 2002. In the same year I played with the Oriental Symphonic Orchestra for the CCTV New Year's
+Concert in the Golden Hall in Vienna and then went on tour with the orchestra through Germany
+and Italy.
+
+With great enthusiasm, I traveled to europe in 2002 to pursue my music dream. From 2002 to 2006,
+I completed my diploma of "Percussion Instruments" at "Joseph Haydn Conservatory" in Eisenstadt,
+Austria. After that, I completed my Master of "Classical Percussion" in 2010 at the "University of
+Music and Performing Arts Graz", taught by Prof. Gerald Fromme. As an Erasmus student, I then
+moved to Paris. Under the direction of Prof. Frédéric Macarez and Prof. Eric Sammut, I continued to
+study at the "Conservatoire à Rayonnement Régional de Paris". In 2011, my commitment led me as a percussionist at the "Shanghai Opera House" back to my homeland China.
+
+During my studies I was able to gain significant concert experiences in various performance forms.
+This includes my engagements with orchestras in China and Europe (Recreation - Great Orchestra Graz,
+Austrian Brass Band, Guangzhou Symphony Orchestra, Shanghai Oriental Symphony Orchestra, Orchester
+Symphonique du Conservatoire de Paris). It also includes my participation in competitions and tours
+with the jazz ensemble "Rhythm Xing". In Shanghai, I was a percussionist as well as a drum teacher
+at Shanghai music school where I had acquired important skills as a teacher.
+
+Since October 2012 I live in Munich. I'm an executive board member and artistic director of Munich
+Huaxing Arts Group and chairman of board of Chinese music group JIYUETIAN e.V.
+</div>
+<div class="content-img txt-white"><img src="/images/about/ping_portofolio.jpg"></div>
+</div>

@@ -60,3 +60,38 @@ about:
         Wir glauben, dass wir hier mehr Menschen wie uns treffen, die Musik mit Liebe begegnen.
         Gemeinsam können wir unsere eigene musikalische Welt erbauen.</p>
 ---
+
+# Unsere Musiker
+
+<div class="col-two-one">
+<div markdown="1">
+### Ping Xu
+
+Geboren wurde ich in Changsha (Provinz Hunan) in China. Mit sechs Jahren begann für mich der
+Musikunterricht, und zwar auf einem traditionellen chinesischen Instrument, dem YangQin (Hackbrett).
+Bereits mit 12 Jahren durfte ich am Wuhan Konservatorium mein Studium im Hauptfach Schlagzeug
+(Nebenfächer Klavier und Gesang) aufnehmen, das ich 2002 erfolgreich abschloss. Im selben Jahr
+spielte ich mit dem Oriental Symphonic Orchestra für das CCTV-Neujahrskonzert im Goldenen Saal in
+Wien und ging danach mit dem Orchester auf große Tournee durch Deutschland und Italien.
+
+Mit großer Begeisterung begann ich ebenfalls 2002 den „europäischen Weg“ der Musik zu studieren.
+Zunächst absolvierte ich von 2002 bis 2006 das Studium für „Schlaginstrumente“ am „Joseph Haydn
+Konservatorium“ in Eisenstadt, Österreich, mit Diplom. Direkt im Anschluss nahm ich ein
+Masterstudium an der „Universität für Musik und darstellende Kunst Graz“ auf und erhielt dort bei
+Prof. Gerald Fromme bis 2010 meine klassische Schlagzeugausbildung. Als Erasmus-Studentin zog ich
+nach Paris, um bei Prof. Frédéric Macarez (Paukist) und Prof. Eric Sammut (Marimbist und Komponist)
+am Conservatoire à Rayonnement Régional de Paris weiterzustudieren. 2011 führte mich mein Engagement
+als Perkussionistin am Shanghai Opera House zurück in meine Heimat China.
+
+Bereits während des Studiums konnte ich wichtige Konzerterfahrungen in verschiedenen
+Performance-Formen sammeln. Hierzu zählen auch meine Engagements bei Orchestern in China und Europa (Recreation – Großes Orchester Graz, Austrian Brass Band, Guangzhou Symphony Orchestra, Shanghai
+Oriental Symphonic Orchestra, Orchestre Symphonique du Conservatoire de Paris). Erfolgreiche
+Wettbewerbsteilnahmen und Tourneen mit dem Jazz-Ensemble „Rhythm Xing“ kamen hinzu. Während meiner
+Zeit in Shanghai war ich sowohl Perkussionistin als auch Schlagzeuglehrerin an der Musikschule
+Shanghai und habe wichtige Kompetenzen als Lehrerin erworben.
+
+Seit Oktober 2012 lebe ich in München. Vorstandsvorsitzende und Künstlerische Leiterin von Munich
+Huaxing Arts Group und der Vorstand des Chinesische Musikgruppe JIYUETIAN e.V.
+</div>
+<div class="content-img txt-white"><img src="/images/about/ping_portofolio.jpg"></div>
+</div>
