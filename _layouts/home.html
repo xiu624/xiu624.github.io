@@ -2,11 +2,14 @@
 layout: default
 locale_menu: on
 portal:
-    top: off
+    top: on
+    top_margin_class: "txt-white bg-transparent"
+    top_content_class: "txt-white bg-black header-emphasis"
+    top_image_fullsize: true
     bottom: off
 ---
 {% include variables.html %}
-<div class="swiper-container portal portal-fullsize">
+<!-- <div class="swiper-container portal portal-fullsize">
     <div class="swiper-wrapper">
         {% assign posts = site.categories.event | where: "locale", page.locale | where: "portal.show_on_homepage", true %}
         {% for post in posts %}
@@ -28,7 +31,7 @@ portal:
     <div class="swiper-pagination swiper-pagination-white"></div>
     <div class="swiper-button-prev swiper-button-white"></div>
     <div class="swiper-button-next swiper-button-white"></div>
-</div>
+</div> -->
 <section id="s1" class="txt-white bg-red header-emphasis">
 <div class="content header-margin col-two-one">
     <div>
