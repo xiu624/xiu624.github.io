@@ -18,7 +18,7 @@ Westendstraße 233<br>
 
 ### Kontakt
 
-<i class="icon-phone icon-inline"></i>+49 (0) 89 200 98548<br>
+<i class="icon-phone icon-inline"></i><br>
 <i class="icon-mail-alt icon-inline"></i><a href="mailto:info@prims-studio.de">info@prims-studio.de</a><br>
 
 ## Haftungsausschluss
