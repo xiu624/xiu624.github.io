@@ -10,9 +10,11 @@ title: Impressum
 ### Impressum
 
 Angaben gemäß § 5 TMG:<br>
+<a href="https://maps.app.goo.gl/ZkCZWS94fncyx6As5" target="_blank">
 Prims Studio / Ping Xu<br>
-Englschalkinger Str. 228<br>
-81927 München<br>
+Westendstraße 233<br>
+80686 München<br>
+</a>
 
 ### Kontakt
 
