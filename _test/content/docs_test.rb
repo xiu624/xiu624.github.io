@@ -1,9 +1,27 @@
 require_relative "../test_helper"
 
-# The feature registry rules from CONTRIBUTING.md ("Feature registry").
-class RegistryTest < Minitest::Test
+# The rules for the documents in _docs/ from CONTRIBUTING.md: the feature
+# registry ("Feature registry") and the ADRs ("ADRs").
+class DocsTest < Minitest::Test
   STATUSES = %w[proposed specified implemented dropped].freeze
   FILENAME = /\A(\d{3})-[a-z0-9]+(-[a-z0-9]+)*\.md\z/
+
+  def adr_names
+    Dir.children(File.join(ROOT, "_docs", "adr")).select { |name| name.end_with?(".md") }.sort
+  end
+
+  def test_adr_files_are_named_with_a_three_digit_number_and_a_slug
+    refute_empty adr_names, "_docs/adr has no ADRs"
+    adr_names.each do |name|
+      assert_match FILENAME, name, "_docs/adr/#{name}: name must look like 001-some-slug.md"
+    end
+  end
+
+  def test_adr_numbers_are_unique
+    adr_names.group_by { |name| name[/\A\d+/] }.each do |number, names|
+      assert_equal 1, names.size, "ADR number #{number} is used by #{names.join(', ')}"
+    end
+  end
 
   def features
     Dir[File.join(ROOT, "_docs", "features", "*.md")].sort.map do |file|

@@ -108,6 +108,10 @@ Dates are not recorded in the entry. Git history has them.
 - An `implemented` feature is never reopened. A later change is a new feature that links back to it.
 - A `dropped` feature can return to `proposed`. Its "Why dropped" section stays as history.
 
+## ADRs
+
+Architecture decisions are recorded in `_docs/adr/`, one Markdown file each, named `NNN-slug.md` (for example `001-per-locale-content-duplication.md`). `NNN` is a three-digit number and the slug is kebab-case. The next number is the highest existing number plus one, and numbers are never reused.
+
 ## Testing
 
 Tests are Ruby, using Minitest and Nokogiri, in `_test/`. Run them before committing.
