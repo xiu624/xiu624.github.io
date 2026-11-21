@@ -7,7 +7,7 @@ Public website of Prims Studio, a Munich-based music studio. A Jekyll site hoste
 - [GLOSSARY.md](./GLOSSARY.md): the domain vocabulary (Event, Work, Locale, Portal, ...). Use these terms in code, docs and commits.
 - [CONTRIBUTING.md](./CONTRIBUTING.md): coding conventions for content files, Liquid templates, SCSS and JavaScript.
 - [_docs/adr](./_docs/adr): architecture decisions and why they were made.
-- [_docs/tasks](./_docs/tasks): coding tasks.
+- [_docs/features](./_docs/features): the registry of features, from proposed to implemented.
 
 ## Run locally
 

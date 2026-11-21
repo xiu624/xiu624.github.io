@@ -1,6 +1,6 @@
 # Contributing
 
-Read [GLOSSARY.md](./GLOSSARY.md) first. Terms such as Event, Work, Locale and Portal are used here as defined there. "Post" only means the Jekyll file type; Event and Work are the domain terms. Design decisions are in [_docs/adr](./_docs/adr). Coding tasks are tracked in [_docs/tasks](./_docs/tasks).
+Read [GLOSSARY.md](./GLOSSARY.md) first. Terms such as Event, Work, Locale and Portal are used here as defined there. "Post" only means the Jekyll file type; Event and Work are the domain terms. Design decisions are in [_docs/adr](./_docs/adr). Features are registered in [_docs/features](./_docs/features).
 
 ## Stack
 
@@ -62,3 +62,48 @@ Body markup:
 
 - Manual commits: `UPDATE: <sentence>.`
 - Dependency bumps from Dependabot keep their default message.
+
+## Feature registry
+
+`_docs/features/` is the registry of features we want to build or have built. It holds one Markdown file per feature, named with a kebab-case slug (`_docs/features/<slug>.md`), in a flat folder with no index. It contains feature entries only. Detailed plans and coding work are kept outside the repo.
+
+An entry grows over time and can link to ADRs, related features and other repo content.
+
+### Entry format
+
+```
+---
+status: proposed
+---
+
+# <Feature title>
+
+## Summary
+What and why, in two or three sentences, using glossary terms.
+
+## Notes
+Optional. Links to ADRs, related features and other repo content.
+
+## Outcome
+Added when the feature is implemented: decisions made, behaviour delivered, main files touched.
+
+## Why dropped
+Added when the feature is dropped: one line, required.
+```
+
+Dates are not recorded in the entry. Git history has them.
+
+### Status
+
+- `proposed`: added to the registry.
+- `specified`: groomed into a spec and tasks, kept outside the repo.
+- `implemented`: built.
+- `dropped`: decided against.
+
+### Rules
+
+- The agent changes `status:` in the same step that moves a feature to `specified` or `implemented`, and says so in its reply.
+- Moving a feature to `implemented` or `dropped` needs the user's confirmation first.
+- The Outcome section is written from the implementation.
+- An `implemented` feature is never reopened. A later change is a new feature that links back to it.
+- A `dropped` feature can return to `proposed`. Its "Why dropped" section stays as history.
