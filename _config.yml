@@ -10,7 +10,7 @@ sass:
   style: compressed
 permalink: /:categories/:title/
 future: true
-exclude: ["README.md", "CONTRIBUTING.md", "GLOSSARY.md"]
+exclude: ["README.md", "CONTRIBUTING.md", "GLOSSARY.md", "Gemfile", "Gemfile.lock", "Rakefile"]
 
 # Plugins
 plugins:

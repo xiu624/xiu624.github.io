@@ -6,7 +6,7 @@ Read [GLOSSARY.md](./GLOSSARY.md) first. Terms such as Event, Work, Locale and P
 
 - Jekyll on GitHub Pages (`github-pages` gem, `jekyll-sitemap`). Only whitelisted plugins work.
 - jQuery with vendored plugins, SCSS with Bourbon and Neat, and a custom icon font (`font-prims`).
-- No build tooling, linter or formatter. `_site/`, `.sass-cache/` and `.DS_Store` are gitignored.
+- Tests are Ruby (Minitest, Nokogiri) run through Rake, see "Testing". No build tooling, linter or formatter. `_site/`, `.sass-cache/` and `.DS_Store` are gitignored.
 
 ## Adding an Event or Work
 
@@ -65,7 +65,7 @@ Body markup:
 
 ## Feature registry
 
-`_docs/features/` is the registry of features we want to build or have built. It holds one Markdown file per feature, named with a kebab-case slug (`_docs/features/<slug>.md`), in a flat folder with no index. It contains feature entries only. Detailed plans and coding work are kept outside the repo.
+`_docs/features/` is the registry of features we want to build or have built. It holds one Markdown file per feature, named `NNN-slug.md` (for example `_docs/features/001-build-tests.md`), in a flat folder with no index. `NNN` is a three-digit number and the slug is kebab-case. The next number is the highest existing number plus one. Numbers are never reused, and a `dropped` feature keeps its number. It contains feature entries only. Detailed plans and coding work are kept outside the repo.
 
 An entry grows over time and can link to ADRs, related features and other repo content.
 
@@ -96,7 +96,7 @@ Dates are not recorded in the entry. Git history has them.
 ### Status
 
 - `proposed`: added to the registry.
-- `specified`: groomed into a spec and tasks, kept outside the repo.
+- `specified`: groomed into a spec or tasks.
 - `implemented`: built.
 - `dropped`: decided against.
 
@@ -107,3 +107,22 @@ Dates are not recorded in the entry. Git history has them.
 - The Outcome section is written from the implementation.
 - An `implemented` feature is never reopened. A later change is a new feature that links back to it.
 - A `dropped` feature can return to `proposed`. Its "Why dropped" section stays as history.
+
+## Testing
+
+Tests are Ruby, using Minitest and Nokogiri, in `_test/`. Run them before committing.
+
+- `_test/content/` checks the source files and needs no build.
+- `_test/site/` checks the built site. `_test/test_helper.rb` builds it once per run into a temp folder, never into `_site/`.
+- Tests are organised by what they test, not by feature.
+- `_test/locale_exceptions.rb` lists the intentional differences between Locales (the German-only Impressum and 404, the footer Impressum link, the 404 page's links to every Locale, Menu icons). Each one is checked against reality, so a stale exception fails with its name.
+
+```
+bundle exec rake test                                       # everything
+bundle exec rake test:content                               # source files only, no build
+bundle exec rake test:site                                  # built site only
+bundle exec ruby _test/site/smoke_test.rb                   # one file
+bundle exec ruby _test/site/smoke_test.rb -n /home/         # one test, by name pattern
+```
+
+How pages look and how JavaScript behaves are not tested. Check them by hand with `bundle exec jekyll serve`.

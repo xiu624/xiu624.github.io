@@ -16,7 +16,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-The site is served at http://localhost:4000. There are no tests, linter or formatter. Check changes by building the site and viewing all three Locales.
+The site is served at http://localhost:4000. Run the tests with `bundle exec rake test`. There is no linter or formatter. Look at how pages render in all three Locales yourself, as the tests don't check looks or JavaScript.
 
 ## Rules that matter most
 
